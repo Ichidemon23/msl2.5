@@ -1,9 +1,9 @@
-[18:34:45] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
-[18:34:45] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
-[18:34:45] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLServerTweaker
-[18:34:45] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2860 for Minecraft 1.12.2 loading
-[18:34:45] [main/INFO] [FML]: Java is OpenJDK 64-Bit Server VM, version 1.8.0_432, running on Linux:amd64:6.5.0-1025-azure, installed at /usr/lib/jvm/java-8-openjdk-amd64/jre
-[18:34:45] [main/ERROR] [FML]: Unable to read the jar file Decocraft-2.6.3.7_1.12.2.jar - ignoring
+[19:32:32] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[19:32:32] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[19:32:32] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[19:32:32] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2860 for Minecraft 1.12.2 loading
+[19:32:32] [main/INFO] [FML]: Java is OpenJDK 64-Bit Server VM, version 1.8.0_432, running on Linux:amd64:6.5.0-1025-azure, installed at /usr/lib/jvm/java-8-openjdk-amd64/jre
+[19:32:32] [main/ERROR] [FML]: Unable to read the jar file Decocraft-2.6.3.7_1.12.2.jar - ignoring
 java.util.zip.ZipException: error in opening zip file
 	at java.util.zip.ZipFile.open(Native Method) ~[?:1.8.0_432]
 	at java.util.zip.ZipFile.<init>(ZipFile.java:231) ~[?:1.8.0_432]
@@ -25,8 +25,8 @@ java.util.zip.ZipException: error in opening zip file
 	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_432]
 	at net.minecraftforge.fml.relauncher.ServerLaunchWrapper.run(ServerLaunchWrapper.java:70) [forge-1.12.2-14.23.5.2860.jar:?]
 	at net.minecraftforge.fml.relauncher.ServerLaunchWrapper.main(ServerLaunchWrapper.java:34) [forge-1.12.2-14.23.5.2860.jar:?]
-[18:34:45] [main/INFO] [FML]: Searching /workspaces/msl2.5/servidor_minecraft/./mods for mods
-[18:34:45] [main/ERROR] [FML]: Unable to read the jar file Decocraft-2.6.3.7_1.12.2.jar - ignoring
+[19:32:32] [main/INFO] [FML]: Searching /workspaces/msl2.5/servidor_minecraft/./mods for mods
+[19:32:32] [main/ERROR] [FML]: Unable to read the jar file Decocraft-2.6.3.7_1.12.2.jar - ignoring
 java.util.zip.ZipException: error in opening zip file
 	at java.util.zip.ZipFile.open(Native Method) ~[?:1.8.0_432]
 	at java.util.zip.ZipFile.<init>(ZipFile.java:231) ~[?:1.8.0_432]
@@ -47,129 +47,129 @@ java.util.zip.ZipException: error in opening zip file
 	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_432]
 	at net.minecraftforge.fml.relauncher.ServerLaunchWrapper.run(ServerLaunchWrapper.java:70) [forge-1.12.2-14.23.5.2860.jar:?]
 	at net.minecraftforge.fml.relauncher.ServerLaunchWrapper.main(ServerLaunchWrapper.java:34) [forge-1.12.2-14.23.5.2860.jar:?]
-[18:34:45] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in Quark-r1.6-179.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
-[18:34:45] [main/WARN] [FML]: The coremod Quark Plugin (vazkii.quark.base.asm.LoadingPlugin) is not signed!
-[18:34:45] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[18:34:45] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[18:34:45] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[18:34:45] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[18:34:45] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[18:34:47] [main/INFO] [FML]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557
-[18:34:47] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[18:34:47] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[18:34:47] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[18:34:47] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
-[18:34:47] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
-[18:34:48] [main/INFO] [Quark ASM]: Transforming net.minecraft.world.WorldServer
-[18:34:48] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [areAllPlayersAsleep, func_73056_e] Descriptor ()Z)
-[18:34:48] [main/INFO] [Quark ASM]: Located Method, patching...
-[18:34:48] [main/INFO] [Quark ASM]: Patch result: true
-[18:34:48] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [wakeAllPlayers, func_73053_d] Descriptor ()V)
-[18:34:48] [main/INFO] [Quark ASM]: Located Method, patching...
-[18:34:48] [main/INFO] [Quark ASM]: Patch result: true
-[18:34:48] [main/INFO] [Quark ASM]: Transforming net.minecraft.entity.Entity
-[18:34:48] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [move, func_70091_d] Descriptor (Lnet/minecraft/entity/MoverType;DDD)V)
-[18:34:48] [main/INFO] [Quark ASM]: Located Method, patching...
-[18:34:48] [main/INFO] [Quark ASM]: Patch result: true
-[18:34:48] [main/INFO] [Quark ASM]: Located Method, patching...
-[18:34:48] [main/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/entity/Entity.func_145775_I ()V
-[18:34:48] [main/INFO] [Quark ASM]: Patch result: true
-[18:34:48] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [onEntityUpdate, func_70030_z] Descriptor ()V)
-[18:34:48] [main/INFO] [Quark ASM]: Located Method, patching...
-[18:34:48] [main/INFO] [Quark ASM]: Patch result: true
-[18:34:48] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.server.MinecraftServer}
-[18:34:48] [main/INFO] [Quark ASM]: Transforming net.minecraft.enchantment.Enchantment
-[18:34:48] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [canApply, func_92089_a] Descriptor (Lnet/minecraft/item/ItemStack;)Z)
-[18:34:48] [main/INFO] [Quark ASM]: Located Method, patching...
-[18:34:48] [main/INFO] [Quark ASM]: Located patch target node IRETURN
-[18:34:48] [main/INFO] [Quark ASM]: Patch result: true
-[18:34:48] [main/INFO] [Quark ASM]: Transforming net.minecraft.entity.item.EntityItem
-[18:34:48] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [onUpdate, func_70071_h_] Descriptor ()V)
-[18:34:48] [main/INFO] [Quark ASM]: Located Method, patching...
-[18:34:48] [main/INFO] [Quark ASM]: Patch result: true
-[18:34:48] [main/INFO] [Quark ASM]: Transforming net.minecraft.item.ItemStack
-[18:34:48] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [getTextComponent, func_151000_E] Descriptor ()Lnet/minecraft/util/text/ITextComponent;)
-[18:34:48] [main/INFO] [Quark ASM]: Located Method, patching...
-[18:34:48] [main/INFO] [Quark ASM]: Located patch target node ARETURN
-[18:34:48] [main/INFO] [Quark ASM]: Patch result: true
-[18:34:48] [main/INFO] [Quark ASM]: Transforming net.minecraft.block.BlockDynamicLiquid
-[18:34:48] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [isBlocked, func_176372_g] Descriptor (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;)Z)
-[18:34:48] [main/INFO] [Quark ASM]: Located Method, patching...
-[18:34:48] [main/INFO] [Quark ASM]: Located patch target node IRETURN
-[18:34:48] [main/INFO] [Quark ASM]: Located patch target node IRETURN
-[18:34:48] [main/INFO] [Quark ASM]: Patch result: true
-[18:34:49] [main/INFO] [Quark ASM]: Transforming net.minecraft.block.BlockPistonBase
-[18:34:49] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [canPush, func_185646_a] Descriptor (Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;ZLnet/minecraft/util/EnumFacing;)Z)
-[18:34:49] [main/INFO] [Quark ASM]: Located Method, patching...
-[18:34:49] [main/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/block/Block.hasTileEntity (Lnet/minecraft/block/state/IBlockState;)Z
-[18:34:49] [main/INFO] [Quark ASM]: Patch result: true
-[18:34:49] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [doMove, func_176319_a] Descriptor (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;Z)Z)
-[18:34:49] [main/INFO] [Quark ASM]: Located Method, patching...
-[18:34:49] [main/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/block/state/BlockPistonStructureHelper.func_177254_c ()Ljava/util/List;
-[18:34:49] [main/INFO] [Quark ASM]: Patch result: true
-[18:34:49] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [doMove, func_176319_a] Descriptor (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;Z)Z)
-[18:34:49] [main/INFO] [Quark ASM]: Located Method, patching...
-[18:34:49] [main/INFO] [Quark ASM]: Located patch target node INVOKESPECIAL net/minecraft/block/state/BlockPistonStructureHelper.<init> (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;Z)V
-[18:34:49] [main/INFO] [Quark ASM]: Patch result: true
-[18:34:49] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [checkForMove, func_176316_e] Descriptor (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;)V)
-[18:34:49] [main/INFO] [Quark ASM]: Located Method, patching...
-[18:34:49] [main/INFO] [Quark ASM]: Located patch target node INVOKESPECIAL net/minecraft/block/state/BlockPistonStructureHelper.<init> (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;Z)V
-[18:34:49] [main/INFO] [Quark ASM]: Patch result: true
-[18:34:49] [main/INFO] [Quark ASM]: Transforming net.minecraft.tileentity.TileEntityPiston
-[18:34:49] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [update, func_73660_a] Descriptor ()V)
-[18:34:49] [main/INFO] [Quark ASM]: Located Method, patching...
-[18:34:49] [main/INFO] [Quark ASM]: Patch result: true
-[18:34:49] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [clearPistonTileEntity, func_145866_f] Descriptor ()V)
-[18:34:49] [main/INFO] [Quark ASM]: Located Method, patching...
-[18:34:49] [main/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/world/World.func_180501_a (Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;I)Z
-[18:34:49] [main/INFO] [Quark ASM]: Patch result: true
-[18:34:49] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [update, func_73660_a] Descriptor ()V)
-[18:34:49] [main/INFO] [Quark ASM]: Located Method, patching...
-[18:34:49] [main/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/world/World.func_180501_a (Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;I)Z
-[18:34:49] [main/INFO] [Quark ASM]: Patch result: true
-[18:34:50] [main/INFO] [Quark ASM]: Transforming net.minecraft.enchantment.EnchantmentDamage
-[18:34:50] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [canApply, func_92089_a] Descriptor (Lnet/minecraft/item/ItemStack;)Z)
-[18:34:50] [main/INFO] [Quark ASM]: Located Method, patching...
-[18:34:50] [main/INFO] [Quark ASM]: Located patch target node IRETURN
-[18:34:50] [main/INFO] [Quark ASM]: Located patch target node IRETURN
-[18:34:50] [main/INFO] [Quark ASM]: Patch result: true
-[18:34:50] [main/INFO] [Quark ASM]: Transforming net.minecraft.entity.item.EntityMinecart
-[18:34:50] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [killMinecart, func_94095_a] Descriptor (Lnet/minecraft/util/DamageSource;)V)
-[18:34:50] [main/INFO] [Quark ASM]: Located Method, patching...
-[18:34:50] [main/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/entity/item/EntityMinecart.func_70099_a (Lnet/minecraft/item/ItemStack;F)Lnet/minecraft/entity/item/EntityItem;
-[18:34:50] [main/INFO] [Quark ASM]: Patch result: true
-[18:34:50] [main/INFO] [Quark ASM]: Transforming net.minecraft.entity.item.EntityBoat
-[18:34:50] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [attackEntityFrom, func_70097_a] Descriptor (Lnet/minecraft/util/DamageSource;F)Z)
-[18:34:50] [main/INFO] [Quark ASM]: Located Method, patching...
-[18:34:50] [main/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/entity/item/EntityBoat.func_145778_a (Lnet/minecraft/item/Item;IF)Lnet/minecraft/entity/item/EntityItem;
-[18:34:50] [main/INFO] [Quark ASM]: Patch result: true
-[18:34:50] [main/INFO] [Quark ASM]: Transforming net.minecraft.item.ItemBanner
-[18:34:50] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [appendHoverTextFromTileEntityTag, func_185054_a] Descriptor (Lnet/minecraft/item/ItemStack;Ljava/util/List;)V)
-[18:34:50] [main/INFO] [Quark ASM]: Failed to locate the method!
-[18:34:51] [main/INFO] [Quark ASM]: Transforming net.minecraft.entity.ai.EntityAITarget
-[18:34:51] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [isSuitableTarget, func_179445_a] Descriptor (Lnet/minecraft/entity/EntityLiving;Lnet/minecraft/entity/EntityLivingBase;ZZ)Z)
-[18:34:51] [main/INFO] [Quark ASM]: Located Method, patching...
-[18:34:51] [main/INFO] [Quark ASM]: Patch result: true
-[18:34:51] [main/INFO] [Quark ASM]: Transforming net.minecraft.item.crafting.RecipesBanners$RecipeAddPattern
-[18:34:51] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [matches, func_77569_a] Descriptor (Lnet/minecraft/inventory/InventoryCrafting;Lnet/minecraft/world/World;)Z)
-[18:34:51] [main/INFO] [Quark ASM]: Located Method, patching...
-[18:34:51] [main/INFO] [Quark ASM]: Located patch target node INVOKESTATIC net/minecraft/tileentity/TileEntityBanner.func_175113_c (Lnet/minecraft/item/ItemStack;)I
-[18:34:51] [main/INFO] [Quark ASM]: Patch result: true
-[18:34:52] [main/INFO] [Quark ASM]: Transforming net.minecraft.inventory.ContainerMerchant
-[18:34:52] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [transferStackInSlot, func_82846_b] Descriptor (Lnet/minecraft/entity/player/EntityPlayer;I)Lnet/minecraft/item/ItemStack;)
-[18:34:52] [main/INFO] [Quark ASM]: Located Method, patching...
-[18:34:52] [main/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/inventory/ContainerMerchant.func_75135_a (Lnet/minecraft/item/ItemStack;IIZ)Z
-[18:34:52] [main/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/inventory/ContainerMerchant.func_75135_a (Lnet/minecraft/item/ItemStack;IIZ)Z
-[18:34:52] [main/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/inventory/ContainerMerchant.func_75135_a (Lnet/minecraft/item/ItemStack;IIZ)Z
-[18:34:52] [main/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/inventory/ContainerMerchant.func_75135_a (Lnet/minecraft/item/ItemStack;IIZ)Z
-[18:34:52] [main/INFO] [Quark ASM]: Patch result: true
-[18:34:52] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting minecraft server version 1.12.2
-[18:34:52] [Server thread/INFO] [FML]: MinecraftForge v14.23.5.2860 Initialized
-[18:34:52] [Server thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
-[18:34:52] [Server thread/INFO] [FML]: Invalid recipe found with multiple oredict ingredients in the same ingredient...
-[18:34:52] [Server thread/INFO] [FML]: Replaced 1227 ore ingredients
-[18:34:53] [Server thread/INFO] [FML]: Searching /workspaces/msl2.5/servidor_minecraft/./mods for mods
-[18:34:53] [Server thread/WARN] [FML]: Zip file Decocraft-2.6.3.7_1.12.2.jar failed to read properly, it will be ignored
+[19:32:32] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in Quark-r1.6-179.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[19:32:32] [main/WARN] [FML]: The coremod Quark Plugin (vazkii.quark.base.asm.LoadingPlugin) is not signed!
+[19:32:32] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[19:32:32] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[19:32:32] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[19:32:32] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[19:32:32] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[19:32:34] [main/INFO] [FML]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557
+[19:32:34] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[19:32:34] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[19:32:35] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[19:32:35] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[19:32:35] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[19:32:35] [main/INFO] [Quark ASM]: Transforming net.minecraft.world.WorldServer
+[19:32:35] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [areAllPlayersAsleep, func_73056_e] Descriptor ()Z)
+[19:32:35] [main/INFO] [Quark ASM]: Located Method, patching...
+[19:32:35] [main/INFO] [Quark ASM]: Patch result: true
+[19:32:35] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [wakeAllPlayers, func_73053_d] Descriptor ()V)
+[19:32:35] [main/INFO] [Quark ASM]: Located Method, patching...
+[19:32:35] [main/INFO] [Quark ASM]: Patch result: true
+[19:32:35] [main/INFO] [Quark ASM]: Transforming net.minecraft.entity.Entity
+[19:32:35] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [move, func_70091_d] Descriptor (Lnet/minecraft/entity/MoverType;DDD)V)
+[19:32:35] [main/INFO] [Quark ASM]: Located Method, patching...
+[19:32:35] [main/INFO] [Quark ASM]: Patch result: true
+[19:32:35] [main/INFO] [Quark ASM]: Located Method, patching...
+[19:32:35] [main/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/entity/Entity.func_145775_I ()V
+[19:32:35] [main/INFO] [Quark ASM]: Patch result: true
+[19:32:35] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [onEntityUpdate, func_70030_z] Descriptor ()V)
+[19:32:35] [main/INFO] [Quark ASM]: Located Method, patching...
+[19:32:35] [main/INFO] [Quark ASM]: Patch result: true
+[19:32:35] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.server.MinecraftServer}
+[19:32:36] [main/INFO] [Quark ASM]: Transforming net.minecraft.enchantment.Enchantment
+[19:32:36] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [canApply, func_92089_a] Descriptor (Lnet/minecraft/item/ItemStack;)Z)
+[19:32:36] [main/INFO] [Quark ASM]: Located Method, patching...
+[19:32:36] [main/INFO] [Quark ASM]: Located patch target node IRETURN
+[19:32:36] [main/INFO] [Quark ASM]: Patch result: true
+[19:32:36] [main/INFO] [Quark ASM]: Transforming net.minecraft.entity.item.EntityItem
+[19:32:36] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [onUpdate, func_70071_h_] Descriptor ()V)
+[19:32:36] [main/INFO] [Quark ASM]: Located Method, patching...
+[19:32:36] [main/INFO] [Quark ASM]: Patch result: true
+[19:32:36] [main/INFO] [Quark ASM]: Transforming net.minecraft.item.ItemStack
+[19:32:36] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [getTextComponent, func_151000_E] Descriptor ()Lnet/minecraft/util/text/ITextComponent;)
+[19:32:36] [main/INFO] [Quark ASM]: Located Method, patching...
+[19:32:36] [main/INFO] [Quark ASM]: Located patch target node ARETURN
+[19:32:36] [main/INFO] [Quark ASM]: Patch result: true
+[19:32:36] [main/INFO] [Quark ASM]: Transforming net.minecraft.block.BlockDynamicLiquid
+[19:32:36] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [isBlocked, func_176372_g] Descriptor (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;)Z)
+[19:32:36] [main/INFO] [Quark ASM]: Located Method, patching...
+[19:32:36] [main/INFO] [Quark ASM]: Located patch target node IRETURN
+[19:32:36] [main/INFO] [Quark ASM]: Located patch target node IRETURN
+[19:32:36] [main/INFO] [Quark ASM]: Patch result: true
+[19:32:36] [main/INFO] [Quark ASM]: Transforming net.minecraft.block.BlockPistonBase
+[19:32:36] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [canPush, func_185646_a] Descriptor (Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;ZLnet/minecraft/util/EnumFacing;)Z)
+[19:32:36] [main/INFO] [Quark ASM]: Located Method, patching...
+[19:32:36] [main/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/block/Block.hasTileEntity (Lnet/minecraft/block/state/IBlockState;)Z
+[19:32:36] [main/INFO] [Quark ASM]: Patch result: true
+[19:32:36] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [doMove, func_176319_a] Descriptor (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;Z)Z)
+[19:32:36] [main/INFO] [Quark ASM]: Located Method, patching...
+[19:32:36] [main/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/block/state/BlockPistonStructureHelper.func_177254_c ()Ljava/util/List;
+[19:32:36] [main/INFO] [Quark ASM]: Patch result: true
+[19:32:36] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [doMove, func_176319_a] Descriptor (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;Z)Z)
+[19:32:36] [main/INFO] [Quark ASM]: Located Method, patching...
+[19:32:36] [main/INFO] [Quark ASM]: Located patch target node INVOKESPECIAL net/minecraft/block/state/BlockPistonStructureHelper.<init> (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;Z)V
+[19:32:36] [main/INFO] [Quark ASM]: Patch result: true
+[19:32:36] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [checkForMove, func_176316_e] Descriptor (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;)V)
+[19:32:36] [main/INFO] [Quark ASM]: Located Method, patching...
+[19:32:36] [main/INFO] [Quark ASM]: Located patch target node INVOKESPECIAL net/minecraft/block/state/BlockPistonStructureHelper.<init> (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;Z)V
+[19:32:36] [main/INFO] [Quark ASM]: Patch result: true
+[19:32:36] [main/INFO] [Quark ASM]: Transforming net.minecraft.tileentity.TileEntityPiston
+[19:32:36] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [update, func_73660_a] Descriptor ()V)
+[19:32:36] [main/INFO] [Quark ASM]: Located Method, patching...
+[19:32:36] [main/INFO] [Quark ASM]: Patch result: true
+[19:32:36] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [clearPistonTileEntity, func_145866_f] Descriptor ()V)
+[19:32:36] [main/INFO] [Quark ASM]: Located Method, patching...
+[19:32:36] [main/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/world/World.func_180501_a (Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;I)Z
+[19:32:36] [main/INFO] [Quark ASM]: Patch result: true
+[19:32:36] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [update, func_73660_a] Descriptor ()V)
+[19:32:36] [main/INFO] [Quark ASM]: Located Method, patching...
+[19:32:36] [main/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/world/World.func_180501_a (Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;I)Z
+[19:32:36] [main/INFO] [Quark ASM]: Patch result: true
+[19:32:37] [main/INFO] [Quark ASM]: Transforming net.minecraft.enchantment.EnchantmentDamage
+[19:32:37] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [canApply, func_92089_a] Descriptor (Lnet/minecraft/item/ItemStack;)Z)
+[19:32:37] [main/INFO] [Quark ASM]: Located Method, patching...
+[19:32:37] [main/INFO] [Quark ASM]: Located patch target node IRETURN
+[19:32:37] [main/INFO] [Quark ASM]: Located patch target node IRETURN
+[19:32:37] [main/INFO] [Quark ASM]: Patch result: true
+[19:32:37] [main/INFO] [Quark ASM]: Transforming net.minecraft.entity.item.EntityMinecart
+[19:32:37] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [killMinecart, func_94095_a] Descriptor (Lnet/minecraft/util/DamageSource;)V)
+[19:32:37] [main/INFO] [Quark ASM]: Located Method, patching...
+[19:32:37] [main/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/entity/item/EntityMinecart.func_70099_a (Lnet/minecraft/item/ItemStack;F)Lnet/minecraft/entity/item/EntityItem;
+[19:32:37] [main/INFO] [Quark ASM]: Patch result: true
+[19:32:37] [main/INFO] [Quark ASM]: Transforming net.minecraft.entity.item.EntityBoat
+[19:32:37] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [attackEntityFrom, func_70097_a] Descriptor (Lnet/minecraft/util/DamageSource;F)Z)
+[19:32:37] [main/INFO] [Quark ASM]: Located Method, patching...
+[19:32:37] [main/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/entity/item/EntityBoat.func_145778_a (Lnet/minecraft/item/Item;IF)Lnet/minecraft/entity/item/EntityItem;
+[19:32:37] [main/INFO] [Quark ASM]: Patch result: true
+[19:32:38] [main/INFO] [Quark ASM]: Transforming net.minecraft.item.ItemBanner
+[19:32:38] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [appendHoverTextFromTileEntityTag, func_185054_a] Descriptor (Lnet/minecraft/item/ItemStack;Ljava/util/List;)V)
+[19:32:38] [main/INFO] [Quark ASM]: Failed to locate the method!
+[19:32:38] [main/INFO] [Quark ASM]: Transforming net.minecraft.entity.ai.EntityAITarget
+[19:32:38] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [isSuitableTarget, func_179445_a] Descriptor (Lnet/minecraft/entity/EntityLiving;Lnet/minecraft/entity/EntityLivingBase;ZZ)Z)
+[19:32:38] [main/INFO] [Quark ASM]: Located Method, patching...
+[19:32:38] [main/INFO] [Quark ASM]: Patch result: true
+[19:32:38] [main/INFO] [Quark ASM]: Transforming net.minecraft.item.crafting.RecipesBanners$RecipeAddPattern
+[19:32:38] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [matches, func_77569_a] Descriptor (Lnet/minecraft/inventory/InventoryCrafting;Lnet/minecraft/world/World;)Z)
+[19:32:38] [main/INFO] [Quark ASM]: Located Method, patching...
+[19:32:38] [main/INFO] [Quark ASM]: Located patch target node INVOKESTATIC net/minecraft/tileentity/TileEntityBanner.func_175113_c (Lnet/minecraft/item/ItemStack;)I
+[19:32:38] [main/INFO] [Quark ASM]: Patch result: true
+[19:32:39] [main/INFO] [Quark ASM]: Transforming net.minecraft.inventory.ContainerMerchant
+[19:32:39] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [transferStackInSlot, func_82846_b] Descriptor (Lnet/minecraft/entity/player/EntityPlayer;I)Lnet/minecraft/item/ItemStack;)
+[19:32:39] [main/INFO] [Quark ASM]: Located Method, patching...
+[19:32:39] [main/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/inventory/ContainerMerchant.func_75135_a (Lnet/minecraft/item/ItemStack;IIZ)Z
+[19:32:39] [main/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/inventory/ContainerMerchant.func_75135_a (Lnet/minecraft/item/ItemStack;IIZ)Z
+[19:32:39] [main/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/inventory/ContainerMerchant.func_75135_a (Lnet/minecraft/item/ItemStack;IIZ)Z
+[19:32:39] [main/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/inventory/ContainerMerchant.func_75135_a (Lnet/minecraft/item/ItemStack;IIZ)Z
+[19:32:39] [main/INFO] [Quark ASM]: Patch result: true
+[19:32:39] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting minecraft server version 1.12.2
+[19:32:39] [Server thread/INFO] [FML]: MinecraftForge v14.23.5.2860 Initialized
+[19:32:39] [Server thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
+[19:32:39] [Server thread/INFO] [FML]: Invalid recipe found with multiple oredict ingredients in the same ingredient...
+[19:32:39] [Server thread/INFO] [FML]: Replaced 1227 ore ingredients
+[19:32:40] [Server thread/INFO] [FML]: Searching /workspaces/msl2.5/servidor_minecraft/./mods for mods
+[19:32:40] [Server thread/WARN] [FML]: Zip file Decocraft-2.6.3.7_1.12.2.jar failed to read properly, it will be ignored
 java.util.zip.ZipException: error in opening zip file
 	at java.util.zip.ZipFile.open(Native Method) ~[?:1.8.0_432]
 	at java.util.zip.ZipFile.<init>(ZipFile.java:231) ~[?:1.8.0_432]
@@ -187,92 +187,133 @@ java.util.zip.ZipException: error in opening zip file
 	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:125) [nz.class:?]
 	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:486) [MinecraftServer.class:?]
 	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_432]
-[18:34:53] [Server thread/INFO] [FML]: Disabling mod ptrmodellib it is client side only.
-[18:34:54] [Server thread/INFO] [FML]: Forge Mod Loader has identified 9 mods to load
-[18:34:54] [Server thread/WARN] [FML]: Missing English translation for FML: assets/fml/lang/en_us.lang
-[18:34:54] [Server thread/WARN] [FML]: Missing English translation for worldedit: assets/worldedit/lang/en_us.lang
-[18:34:54] [Server thread/INFO] [FML]: FML has found a non-mod file Decocraft-2.6.3.7_1.12.2.jar in your mods directory. It will now be injected into your classpath. This could severe stability issues, it should be removed if possible.
-[18:34:54] [Server thread/INFO] [FML]: FML has found a non-mod file PTRLib-1.0.5.jar in your mods directory. It will now be injected into your classpath. This could severe stability issues, it should be removed if possible.
-[18:34:54] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, autoreglib, journeymap, quark, variedcommodities, worldedit] at CLIENT
-[18:34:54] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, autoreglib, journeymap, quark, variedcommodities, worldedit] at SERVER
-[18:34:54] [Server thread/INFO] [FML]: Processing ObjectHolder annotations
-[18:34:54] [Server thread/INFO] [FML]: Found 1536 ObjectHolder annotations
-[18:34:54] [Server thread/INFO] [FML]: Identifying ItemStackHolder annotations
-[18:34:54] [Server thread/INFO] [FML]: Found 0 ItemStackHolder annotations
-[18:34:54] [Server thread/INFO] [FML]: Configured a dormant chunk cache size of 0
-[18:34:54] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
-[18:34:55] [Server thread/INFO] [Quark ASM]: Transforming net.minecraft.util.DamageSource
-[18:34:55] [Server thread/INFO] [Quark ASM]: Applying Transformation to method (Names [causePlayerDamage, func_76365_a] Descriptor (Lnet/minecraft/entity/player/EntityPlayer;)Lnet/minecraft/util/DamageSource;)
-[18:34:55] [Server thread/INFO] [Quark ASM]: Located Method, patching...
-[18:34:55] [Server thread/INFO] [Quark ASM]: Patch result: true
-[18:34:55] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: AHEAD Target: null
-[18:34:55] [Server thread/INFO] [Quark]: Module decoration is enabled
-[18:34:55] [Server thread/INFO] [Quark]: Module world is enabled
-[18:34:55] [Server thread/INFO] [Quark]: Module vanity is enabled
-[18:34:55] [Server thread/INFO] [Quark]: Module tweaks is enabled
-[18:34:55] [Server thread/INFO] [Quark]: Module experimental is enabled
-[18:34:55] [Server thread/INFO] [Quark]: Module automation is enabled
-[18:34:55] [Server thread/INFO] [Quark]: Module management is enabled
-[18:34:55] [Server thread/INFO] [Quark]: Module building is enabled
-[18:34:55] [Server thread/INFO] [Quark]: Module misc is enabled
-[18:34:55] [Server thread/INFO] [Quark]: Module client is enabled
-[18:34:58] [Server thread/INFO] [FML]: Applying holder lookups
-[18:34:58] [Server thread/INFO] [FML]: Holder lookups applied
-[18:34:58] [Server thread/INFO] [FML]: Applying holder lookups
-[18:34:58] [Server thread/INFO] [FML]: Holder lookups applied
-[18:34:58] [Server thread/INFO] [FML]: Applying holder lookups
-[18:34:58] [Server thread/INFO] [FML]: Holder lookups applied
-[18:34:58] [Server thread/INFO] [FML]: Applying holder lookups
-[18:34:58] [Server thread/INFO] [FML]: Holder lookups applied
-[18:34:58] [Server thread/INFO] [FML]: Injecting itemstacks
-[18:34:58] [Server thread/INFO] [FML]: Itemstack injection complete
-[18:34:58] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Loading properties
-[18:34:58] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Default game type: SURVIVAL
-[18:34:58] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Generating keypair
-[18:34:59] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting Minecraft server on *:25565
-[18:34:59] [Server thread/INFO] [net.minecraft.network.NetworkSystem]: Using epoll channel type
-[18:34:59] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[18:34:59] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: The server will make no attempt to authenticate usernames. Beware.
-[18:34:59] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[18:34:59] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: To change this, set "online-mode" to "true" in the server.properties file.
-[18:34:59] [Server thread/INFO] [FML]: Applying holder lookups
-[18:34:59] [Server thread/INFO] [FML]: Holder lookups applied
-[18:34:59] [Server thread/INFO] [FML]: Injecting itemstacks
-[18:34:59] [Server thread/INFO] [FML]: Itemstack injection complete
-[18:34:59] [Server thread/INFO] [worldedit]: WorldEdit for Forge (version 6.1.10) is loaded
-[18:34:59] [Server thread/INFO] [FML]: Forge Mod Loader has successfully loaded 9 mods
-[18:35:00] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Preparing level "world"
-[18:35:00] [Server thread/INFO] [FML]: Injecting existing registry data into this server instance
-[18:35:00] [Server thread/INFO] [FML]: Applying holder lookups
-[18:35:00] [Server thread/INFO] [FML]: Holder lookups applied
-[18:35:01] [Server thread/INFO] [FML]: Loading dimension 0 (world) (net.minecraft.server.dedicated.DedicatedServer@749924f9)
-[18:35:01] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 488 advancements
-[18:35:01] [Server thread/INFO] [FML]: Loading dimension -1 (world) (net.minecraft.server.dedicated.DedicatedServer@749924f9)
-[18:35:01] [Server thread/INFO] [FML]: Loading dimension 1 (world) (net.minecraft.server.dedicated.DedicatedServer@749924f9)
-[18:35:01] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for level 0
-[18:35:02] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 28%
-[18:35:02] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Done (3.293s)! For help, type "help" or "?"
-[18:35:03] [Server thread/INFO] [Quark ASM]: Transforming net.minecraft.enchantment.EnchantmentHelper
-[18:35:03] [Server thread/INFO] [Quark ASM]: Applying Transformation to method (Names [getEnchantments, func_82781_a] Descriptor (Lnet/minecraft/item/ItemStack;)Ljava/util/Map;)
-[18:35:03] [Server thread/INFO] [Quark ASM]: Located Method, patching...
-[18:35:03] [Server thread/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/item/ItemStack.func_77986_q ()Lnet/minecraft/nbt/NBTTagList;
-[18:35:03] [Server thread/INFO] [Quark ASM]: Patch result: true
-[18:35:03] [Server thread/INFO] [FML]: Unloading dimension -1
-[18:35:03] [Server thread/INFO] [FML]: Unloading dimension 1
-[18:36:01] [Netty Epoll Server IO #2/INFO] [FML]: Client protocol version 2
-[18:36:01] [Netty Epoll Server IO #2/INFO] [FML]: Client attempting to join with 12 mods : minecraft@1.12.2,tlauncher_custom_cape_skin@1.4,ptrmodellib@1.0.5,FML@8.0.99.99,forge@14.23.5.2859,worldedit@6.1.10,quark@r1.6-179,mcp@9.42,journeymap@1.12.2-5.7.1p2,variedcommodities@1.12.2,autoreglib@1.3-32,props@2.6.3.7
-[18:36:01] [Netty Epoll Server IO #2/INFO] [journeymap]: CLIENT
-[18:36:10] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: ichi_demons lost connection: Disconnected
-[18:36:10] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ichi_demons left the game
-[18:36:43] [Netty Epoll Server IO #1/INFO] [FML]: Client protocol version 2
-[18:36:43] [Netty Epoll Server IO #1/INFO] [FML]: Client attempting to join with 12 mods : minecraft@1.12.2,tlauncher_custom_cape_skin@1.4,ptrmodellib@1.0.5,FML@8.0.99.99,forge@14.23.5.2859,worldedit@6.1.10,quark@r1.6-179,mcp@9.42,journeymap@1.12.2-5.7.1p2,variedcommodities@1.12.2,autoreglib@1.3-32,props@2.6.3.7
-[18:36:43] [Netty Epoll Server IO #1/INFO] [journeymap]: CLIENT
-[18:36:53] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: ichi_demons lost connection: Disconnected
-[18:36:53] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ichi_demons left the game
-[18:37:36] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Stopping the server
-[18:37:36] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
-[18:37:36] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
-[18:37:36] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
-[18:37:36] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'world'/overworld
-[18:37:36] [Server thread/INFO] [FML]: Unloading dimension 0
-[18:37:36] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
+[19:32:41] [Server thread/INFO] [FML]: Disabling mod ptrmodellib it is client side only.
+[19:32:41] [Server thread/INFO] [FML]: Forge Mod Loader has identified 9 mods to load
+[19:32:41] [Server thread/WARN] [FML]: Missing English translation for FML: assets/fml/lang/en_us.lang
+[19:32:41] [Server thread/WARN] [FML]: Missing English translation for worldedit: assets/worldedit/lang/en_us.lang
+[19:32:41] [Server thread/INFO] [FML]: FML has found a non-mod file Decocraft-2.6.3.7_1.12.2.jar in your mods directory. It will now be injected into your classpath. This could severe stability issues, it should be removed if possible.
+[19:32:41] [Server thread/INFO] [FML]: FML has found a non-mod file PTRLib-1.0.5.jar in your mods directory. It will now be injected into your classpath. This could severe stability issues, it should be removed if possible.
+[19:32:41] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, autoreglib, journeymap, quark, variedcommodities, worldedit] at CLIENT
+[19:32:41] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, autoreglib, journeymap, quark, variedcommodities, worldedit] at SERVER
+[19:32:42] [Server thread/INFO] [FML]: Processing ObjectHolder annotations
+[19:32:42] [Server thread/INFO] [FML]: Found 1536 ObjectHolder annotations
+[19:32:42] [Server thread/INFO] [FML]: Identifying ItemStackHolder annotations
+[19:32:42] [Server thread/INFO] [FML]: Found 0 ItemStackHolder annotations
+[19:32:42] [Server thread/INFO] [FML]: Configured a dormant chunk cache size of 0
+[19:32:42] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[19:32:42] [Server thread/INFO] [Quark ASM]: Transforming net.minecraft.util.DamageSource
+[19:32:42] [Server thread/INFO] [Quark ASM]: Applying Transformation to method (Names [causePlayerDamage, func_76365_a] Descriptor (Lnet/minecraft/entity/player/EntityPlayer;)Lnet/minecraft/util/DamageSource;)
+[19:32:42] [Server thread/INFO] [Quark ASM]: Located Method, patching...
+[19:32:42] [Server thread/INFO] [Quark ASM]: Patch result: true
+[19:32:43] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: AHEAD Target: null
+[19:32:43] [Server thread/INFO] [Quark]: Module misc is enabled
+[19:32:43] [Server thread/INFO] [Quark]: Module automation is enabled
+[19:32:43] [Server thread/INFO] [Quark]: Module management is enabled
+[19:32:43] [Server thread/INFO] [Quark]: Module client is enabled
+[19:32:43] [Server thread/INFO] [Quark]: Module vanity is enabled
+[19:32:43] [Server thread/INFO] [Quark]: Module decoration is enabled
+[19:32:43] [Server thread/INFO] [Quark]: Module tweaks is enabled
+[19:32:43] [Server thread/INFO] [Quark]: Module experimental is enabled
+[19:32:43] [Server thread/INFO] [Quark]: Module building is enabled
+[19:32:43] [Server thread/INFO] [Quark]: Module world is enabled
+[19:32:46] [Server thread/INFO] [FML]: Applying holder lookups
+[19:32:46] [Server thread/INFO] [FML]: Holder lookups applied
+[19:32:46] [Server thread/INFO] [FML]: Applying holder lookups
+[19:32:46] [Server thread/INFO] [FML]: Holder lookups applied
+[19:32:46] [Server thread/INFO] [FML]: Applying holder lookups
+[19:32:46] [Server thread/INFO] [FML]: Holder lookups applied
+[19:32:46] [Server thread/INFO] [FML]: Applying holder lookups
+[19:32:46] [Server thread/INFO] [FML]: Holder lookups applied
+[19:32:46] [Server thread/INFO] [FML]: Injecting itemstacks
+[19:32:46] [Server thread/INFO] [FML]: Itemstack injection complete
+[19:32:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Loading properties
+[19:32:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Default game type: SURVIVAL
+[19:32:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Generating keypair
+[19:32:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting Minecraft server on *:25565
+[19:32:46] [Server thread/INFO] [net.minecraft.network.NetworkSystem]: Using epoll channel type
+[19:32:46] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[19:32:46] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: The server will make no attempt to authenticate usernames. Beware.
+[19:32:46] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[19:32:46] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: To change this, set "online-mode" to "true" in the server.properties file.
+[19:32:47] [Server thread/INFO] [FML]: Applying holder lookups
+[19:32:47] [Server thread/INFO] [FML]: Holder lookups applied
+[19:32:47] [Server thread/INFO] [FML]: Injecting itemstacks
+[19:32:47] [Server thread/INFO] [FML]: Itemstack injection complete
+[19:32:47] [Server thread/INFO] [worldedit]: WorldEdit for Forge (version 6.1.10) is loaded
+[19:32:47] [Server thread/INFO] [FML]: Forge Mod Loader has successfully loaded 9 mods
+[19:32:47] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Preparing level "world"
+[19:32:47] [Server thread/INFO] [FML]: Injecting existing registry data into this server instance
+[19:32:49] [Server thread/INFO] [FML]: Applying holder lookups
+[19:32:49] [Server thread/INFO] [FML]: Holder lookups applied
+[19:32:49] [Server thread/INFO] [FML]: Loading dimension 0 (world) (net.minecraft.server.dedicated.DedicatedServer@5c45d4a5)
+[19:32:49] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 488 advancements
+[19:32:49] [Server thread/INFO] [FML]: Loading dimension -1 (world) (net.minecraft.server.dedicated.DedicatedServer@5c45d4a5)
+[19:32:50] [Server thread/INFO] [FML]: Loading dimension 1 (world) (net.minecraft.server.dedicated.DedicatedServer@5c45d4a5)
+[19:32:50] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for level 0
+[19:32:51] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 1%
+[19:32:52] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 67%
+[19:32:52] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Done (4.816s)! For help, type "help" or "?"
+[19:32:52] [Server thread/INFO] [Quark ASM]: Transforming net.minecraft.enchantment.EnchantmentHelper
+[19:32:52] [Server thread/INFO] [Quark ASM]: Applying Transformation to method (Names [getEnchantments, func_82781_a] Descriptor (Lnet/minecraft/item/ItemStack;)Ljava/util/Map;)
+[19:32:52] [Server thread/INFO] [Quark ASM]: Located Method, patching...
+[19:32:52] [Server thread/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/item/ItemStack.func_77986_q ()Lnet/minecraft/nbt/NBTTagList;
+[19:32:52] [Server thread/INFO] [Quark ASM]: Patch result: true
+[19:32:52] [Server thread/INFO] [FML]: Unloading dimension -1
+[19:32:52] [Server thread/INFO] [FML]: Unloading dimension 1
+[19:33:40] [Netty Epoll Server IO #2/INFO] [FML]: Client protocol version 2
+[19:33:40] [Netty Epoll Server IO #2/INFO] [FML]: Client attempting to join with 12 mods : minecraft@1.12.2,tlauncher_custom_cape_skin@1.4,ptrmodellib@1.0.5,FML@8.0.99.99,forge@14.23.5.2860,worldedit@6.1.10,quark@r1.6-179,mcp@9.42,journeymap@1.12.2-5.7.1p2,variedcommodities@1.12.2,autoreglib@1.3-32,props@2.6.3.7
+[19:33:40] [Netty Epoll Server IO #2/INFO] [journeymap]: CLIENT
+[19:33:46] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[19:33:46] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: ichi_demons[/100.111.167.116:55815] logged in with entity id 240 at (-205.5, 69.0, 235.5)
+[19:33:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ichi_demons joined the game
+[19:34:01] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: ichi_demons lost connection: Timed out
+[19:34:01] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ichi_demons left the game
+[19:34:45] [Netty Epoll Server IO #0/INFO] [FML]: Client protocol version 2
+[19:34:45] [Netty Epoll Server IO #0/INFO] [FML]: Client attempting to join with 12 mods : minecraft@1.12.2,tlauncher_custom_cape_skin@1.4,ptrmodellib@1.0.5,FML@8.0.99.99,forge@14.23.5.2860,worldedit@6.1.10,quark@r1.6-179,mcp@9.42,journeymap@1.12.2-5.7.1p2,variedcommodities@1.12.2,autoreglib@1.3-32,props@2.6.3.7
+[19:34:45] [Netty Epoll Server IO #0/INFO] [journeymap]: CLIENT
+[19:34:48] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[19:34:48] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: ichi_demons[/100.111.167.116:55818] logged in with entity id 685 at (-205.5, 69.0, 235.5)
+[19:34:48] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ichi_demons joined the game
+[19:35:23] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ichi_demons: Set own game mode to Creative Mode]
+[19:36:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ichi_demons: Set the time to 1000]
+[19:37:03] [Netty Epoll Server IO #1/INFO] [FML]: Client protocol version 2
+[19:37:03] [Netty Epoll Server IO #1/INFO] [FML]: Client attempting to join with 4 mods : minecraft@1.12.2,FML@8.0.99.99,forge@14.23.5.2860,mcp@9.42
+[19:37:03] [Netty Epoll Server IO #1/INFO] [FML]: Attempting connection with missing mods [autoreglib, journeymap, quark, variedcommodities, worldedit] at CLIENT
+[19:37:03] [Netty Epoll Server IO #1/INFO] [journeymap]: CLIENT
+[19:37:03] [Netty Epoll Server IO #1/INFO] [FML]: Rejecting connection CLIENT: AutoRegLib: Requires version 1.3-32 but mod is not found on client.
+Varied Commodities: Requires version 1.12.2 but mod is not found on client.
+[19:37:03] [Netty Epoll Server IO #1/ERROR] [FML]: Network Disconnect: Server Mod rejections:
+AutoRegLib: Requires version 1.3-32 but mod is not found on client.
+Varied Commodities: Requires version 1.12.2 but mod is not found on client.
+[19:37:03] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: danipt830 lost connection: Server Mod rejections:
+AutoRegLib: Requires version 1.3-32 but mod is not found on client.
+Varied Commodities: Requires version 1.12.2 but mod is not found on client.
+[19:37:03] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: danipt830 left the game
+[19:37:10] [Netty Epoll Server IO #2/INFO] [FML]: Client protocol version 2
+[19:37:10] [Netty Epoll Server IO #2/INFO] [FML]: Client attempting to join with 4 mods : minecraft@1.12.2,FML@8.0.99.99,forge@14.23.5.2860,mcp@9.42
+[19:37:10] [Netty Epoll Server IO #2/INFO] [FML]: Attempting connection with missing mods [autoreglib, journeymap, quark, variedcommodities, worldedit] at CLIENT
+[19:37:10] [Netty Epoll Server IO #2/INFO] [journeymap]: CLIENT
+[19:37:10] [Netty Epoll Server IO #2/INFO] [FML]: Rejecting connection CLIENT: AutoRegLib: Requires version 1.3-32 but mod is not found on client.
+Varied Commodities: Requires version 1.12.2 but mod is not found on client.
+[19:37:10] [Netty Epoll Server IO #2/ERROR] [FML]: Network Disconnect: Server Mod rejections:
+AutoRegLib: Requires version 1.3-32 but mod is not found on client.
+Varied Commodities: Requires version 1.12.2 but mod is not found on client.
+[19:37:10] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: danipt830 lost connection: Server Mod rejections:
+AutoRegLib: Requires version 1.3-32 but mod is not found on client.
+Varied Commodities: Requires version 1.12.2 but mod is not found on client.
+[19:37:10] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: danipt830 left the game
+[19:39:49] [Server thread/WARN] [FML]: Quark loaded a new chunk [-36, 13] in dimension 0 (overworld) while populating chunk [-35, 13], causing cascading worldgen lag.
+[19:39:49] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[19:40:07] [Netty Epoll Server IO #3/INFO] [FML]: Client protocol version 2
+[19:40:07] [Netty Epoll Server IO #3/INFO] [FML]: Client attempting to join with 4 mods : minecraft@1.12.2,FML@8.0.99.99,forge@14.23.5.2860,mcp@9.42
+[19:40:07] [Netty Epoll Server IO #3/INFO] [FML]: Attempting connection with missing mods [autoreglib, journeymap, quark, variedcommodities, worldedit] at CLIENT
+[19:40:07] [Netty Epoll Server IO #3/INFO] [journeymap]: CLIENT
+[19:40:07] [Netty Epoll Server IO #3/INFO] [FML]: Rejecting connection CLIENT: AutoRegLib: Requires version 1.3-32 but mod is not found on client.
+Varied Commodities: Requires version 1.12.2 but mod is not found on client.
+[19:40:07] [Netty Epoll Server IO #3/ERROR] [FML]: Network Disconnect: Server Mod rejections:
+AutoRegLib: Requires version 1.3-32 but mod is not found on client.
+Varied Commodities: Requires version 1.12.2 but mod is not found on client.
+[19:40:07] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: danipt830 lost connection: Server Mod rejections:
+AutoRegLib: Requires version 1.3-32 but mod is not found on client.
+Varied Commodities: Requires version 1.12.2 but mod is not found on client.
+[19:40:07] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: danipt830 left the game
