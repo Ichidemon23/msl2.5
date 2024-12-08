@@ -323,3 +323,21 @@ Varied Commodities: Requires version 1.12.2 but mod is not found on client.
 [19:44:19] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
 [19:47:18] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ichi_demons: Changing to clear weather]
 [19:56:48] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ichi_demons: Changing to clear weather]
+[20:04:51] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: ichi_demons lost connection: Timed out
+[20:04:51] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ichi_demons left the game
+[20:07:39] [Netty Epoll Server IO #0/INFO] [FML]: Client protocol version 2
+[20:07:39] [Netty Epoll Server IO #0/INFO] [FML]: Client attempting to join with 12 mods : minecraft@1.12.2,tlauncher_custom_cape_skin@1.4,ptrmodellib@1.0.5,FML@8.0.99.99,forge@14.23.5.2860,worldedit@6.1.10,quark@r1.6-179,mcp@9.42,journeymap@1.12.2-5.7.1p2,variedcommodities@1.12.2,autoreglib@1.3-32,props@2.6.3.7
+[20:07:39] [Netty Epoll Server IO #0/INFO] [journeymap]: CLIENT
+[20:07:42] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[20:07:42] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: ichi_demons[/100.111.167.116:55961] logged in with entity id 12605 at (-545.9283372015691, 64.0, 402.3308819808237)
+[20:07:42] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ichi_demons joined the game
+[20:08:09] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: ichi_demons lost connection: Timed out
+[20:08:09] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ichi_demons left the game
+[20:08:33] [Netty Epoll Server IO #3/INFO] [FML]: Client protocol version 2
+[20:08:33] [Netty Epoll Server IO #3/INFO] [FML]: Client attempting to join with 12 mods : minecraft@1.12.2,tlauncher_custom_cape_skin@1.4,ptrmodellib@1.0.5,FML@8.0.99.99,forge@14.23.5.2860,worldedit@6.1.10,quark@r1.6-179,mcp@9.42,journeymap@1.12.2-5.7.1p2,variedcommodities@1.12.2,autoreglib@1.3-32,props@2.6.3.7
+[20:08:33] [Netty Epoll Server IO #3/INFO] [journeymap]: CLIENT
+[20:08:35] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[20:08:35] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: ichi_demons[/100.111.167.116:55977] logged in with entity id 13600 at (-545.9283372015691, 64.0, 402.3308819808237)
+[20:08:35] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ichi_demons joined the game
+[20:09:21] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ichi_demons: Set the time to 1000]
+[20:09:51] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ichi_demons: Changing to clear weather]
