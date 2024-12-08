@@ -365,3 +365,12 @@ Varied Commodities: Requires version 1.12.2 but mod is not found on client.
 [21:09:33] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ichi_demons: Changing to clear weather]
 [21:16:11] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: ichi_demons lost connection: Timed out
 [21:16:11] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ichi_demons left the game
+[21:33:18] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Stopping the server
+[21:33:18] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
+[21:33:18] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
+[21:33:18] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
+[21:33:18] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'world'/overworld
+[21:33:18] [Server thread/INFO] [FML]: Unloading dimension 0
+[21:33:18] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
+[21:33:18] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
+[21:33:18] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
