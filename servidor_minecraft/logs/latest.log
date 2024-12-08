@@ -341,3 +341,5 @@ Varied Commodities: Requires version 1.12.2 but mod is not found on client.
 [20:08:35] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ichi_demons joined the game
 [20:09:21] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ichi_demons: Set the time to 1000]
 [20:09:51] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ichi_demons: Changing to clear weather]
+[20:18:45] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ichi_demons: Changing to clear weather]
+[20:19:21] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: ichi_demons moved too quickly! -1.2417835004587232,0.0,10.263378120497066
