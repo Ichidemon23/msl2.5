@@ -11807,3 +11807,20 @@ io.netty.handler.timeout.ReadTimeoutException: null
 [23:06:31] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
 [23:06:31] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ichi_demons: Set the time to 1000]
 [23:07:16] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[23:08:01] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[23:08:37] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ichi_demons: Changing to clear weather]
+[23:08:46] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[23:09:31] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[23:10:16] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[23:11:01] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[23:11:46] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[23:12:31] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[23:13:16] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[23:14:01] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[23:14:46] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[23:15:31] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[23:15:58] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ichi_demons: Set the time to 1000]
+[23:16:03] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ichi_demons: Changing to clear weather]
+[23:16:16] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[23:17:01] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[23:17:46] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
