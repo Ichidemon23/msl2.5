@@ -340,3 +340,5 @@ java.util.zip.ZipException: error in opening zip file
 [13:40:12] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: ichi_demons moved too quickly! 1.0166461510684144,4.109521214981939,9.215794515948346
 [13:40:21] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: ichi_demons moved too quickly! 0.7914242982396331,0.0,10.28799401676406
 [13:40:24] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: ichi_demons moved too quickly! 2.5486850009439763,0.0,9.943445730167923
+[13:45:22] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ichi_demons: Changing to clear weather]
+[13:46:05] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ichi_demons: Changing to clear weather]
