@@ -11804,3 +11804,57 @@ io.netty.handler.timeout.ReadTimeoutException: null
 [15:42:54] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: ichi_demons lost connection: Timed out
 [15:42:54] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ichi_demons left the game
 [15:43:33] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[15:44:18] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[15:45:03] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[15:45:43] [Server thread/TRACE] [FML]: Handshake channel activating
+[15:45:43] [Server thread/DEBUG] [FML]: FMLHandshakeServerState: null->FMLHandshakeServerState$1:START
+[15:45:43] [Server thread/DEBUG] [FML]:   Next: HELLO
+[15:45:44] [Netty Epoll Server IO #3/DEBUG] [FML]: FMLHandshakeServerState: $ClientHello->FMLHandshakeServerState$2:HELLO
+[15:45:44] [Netty Epoll Server IO #3/INFO] [FML]: Client protocol version 2
+[15:45:44] [Netty Epoll Server IO #3/DEBUG] [FML]: FMLHandshakeServerState: $ModList:13 mods->FMLHandshakeServerState$2:HELLO
+[15:45:44] [Netty Epoll Server IO #3/INFO] [FML]: Client attempting to join with 13 mods : minecraft@1.12.2,ptrmodellib@1.0.5,FML@8.0.99.99,personalcars@1.4,worldedit@6.1.10,props@2.6.3.7,tlauncher_custom_cape_skin@1.4,forge@14.23.5.2860,quark@r1.6-179,mcp@9.42,journeymap@1.12.2-5.7.1p2,variedcommodities@1.12.2,autoreglib@1.3-32
+[15:45:44] [Netty Epoll Server IO #3/INFO] [journeymap]: CLIENT
+[15:45:44] [Netty Epoll Server IO #3/DEBUG] [FML]:   Next: WAITINGCACK
+[15:45:44] [Netty Epoll Server IO #3/DEBUG] [FML]: FMLHandshakeServerState: $HandshakeAck:{2}->FMLHandshakeServerState$3:WAITINGCACK
+[15:45:44] [Netty Epoll Server IO #3/DEBUG] [FML]:   Next: COMPLETE
+[15:45:48] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[15:45:51] [Netty Epoll Server IO #3/DEBUG] [FML]: FMLHandshakeServerState: $HandshakeAck:{3}->FMLHandshakeServerState$4:COMPLETE
+[15:45:51] [Netty Epoll Server IO #3/DEBUG] [FML]:   Next: DONE
+[15:45:51] [Netty Epoll Server IO #3/DEBUG] [FML]: FMLHandshakeServerState: $HandshakeAck:{4}->FMLHandshakeServerState$5:DONE
+[15:45:51] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[15:45:51] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: ichi_demons[/100.111.167.116:63772] logged in with entity id 52036 at (-253.69490120673763, 63.0, 394.0513522582687)
+[15:45:51] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ichi_demons joined the game
+[15:45:51] [Netty Epoll Server IO #3/DEBUG] [FML]: FMLHandshakeServerState: $HandshakeAck:{5}->FMLHandshakeServerState$5:DONE
+[15:46:18] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: ichi_demons lost connection: Timed out
+[15:46:18] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ichi_demons left the game
+[15:46:33] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[15:46:46] [Server thread/TRACE] [FML]: Handshake channel activating
+[15:46:46] [Server thread/DEBUG] [FML]: FMLHandshakeServerState: null->FMLHandshakeServerState$1:START
+[15:46:46] [Server thread/DEBUG] [FML]:   Next: HELLO
+[15:46:46] [Netty Epoll Server IO #0/DEBUG] [FML]: FMLHandshakeServerState: $ClientHello->FMLHandshakeServerState$2:HELLO
+[15:46:46] [Netty Epoll Server IO #0/INFO] [FML]: Client protocol version 2
+[15:46:46] [Netty Epoll Server IO #0/DEBUG] [FML]: FMLHandshakeServerState: $ModList:13 mods->FMLHandshakeServerState$2:HELLO
+[15:46:46] [Netty Epoll Server IO #0/INFO] [FML]: Client attempting to join with 13 mods : minecraft@1.12.2,ptrmodellib@1.0.5,FML@8.0.99.99,personalcars@1.4,worldedit@6.1.10,props@2.6.3.7,tlauncher_custom_cape_skin@1.4,forge@14.23.5.2860,quark@r1.6-179,mcp@9.42,journeymap@1.12.2-5.7.1p2,variedcommodities@1.12.2,autoreglib@1.3-32
+[15:46:46] [Netty Epoll Server IO #0/INFO] [journeymap]: CLIENT
+[15:46:46] [Netty Epoll Server IO #0/DEBUG] [FML]:   Next: WAITINGCACK
+[15:46:46] [Netty Epoll Server IO #0/DEBUG] [FML]: FMLHandshakeServerState: $HandshakeAck:{2}->FMLHandshakeServerState$3:WAITINGCACK
+[15:46:46] [Netty Epoll Server IO #0/DEBUG] [FML]:   Next: COMPLETE
+[15:46:48] [Netty Epoll Server IO #0/DEBUG] [FML]: FMLHandshakeServerState: $HandshakeAck:{3}->FMLHandshakeServerState$4:COMPLETE
+[15:46:48] [Netty Epoll Server IO #0/DEBUG] [FML]:   Next: DONE
+[15:46:48] [Netty Epoll Server IO #0/DEBUG] [FML]: FMLHandshakeServerState: $HandshakeAck:{4}->FMLHandshakeServerState$5:DONE
+[15:46:48] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[15:46:48] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: ichi_demons[/100.111.167.116:63777] logged in with entity id 52155 at (-253.69490120673763, 63.0, 394.0513522582687)
+[15:46:48] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ichi_demons joined the game
+[15:46:48] [Netty Epoll Server IO #0/DEBUG] [FML]: FMLHandshakeServerState: $HandshakeAck:{5}->FMLHandshakeServerState$5:DONE
+[15:47:03] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ichi_demons: Changing to clear weather]
+[15:47:18] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[15:47:18] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: ichi_demons lost connection: Timed out
+[15:47:18] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ichi_demons left the game
+[15:48:03] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[15:48:48] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[15:49:33] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[15:50:18] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[15:51:03] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[15:51:48] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[15:52:33] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[15:53:18] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
