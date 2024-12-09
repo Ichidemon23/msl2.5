@@ -34922,3 +34922,22 @@ io.netty.handler.timeout.ReadTimeoutException: null
 [18:39:30] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
 [18:39:30] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: ichi_demons[/100.111.167.116:64645] logged in with entity id 26678 at (-265.14833060053536, 72.99313547219361, 187.01798473702434)
 [18:39:30] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ichi_demons joined the game
+[18:42:23] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ichi_demons: Set the time to 1000]
+[18:42:40] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ichi_demons: Set the time to 1000]
+[18:45:56] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: ichi_demons moved too quickly! -10.04372375813574,0.0,-2.296159620705339
+[18:48:48] [Server thread/WARN] [FML]: Quark loaded a new chunk [-34, -2] in dimension 0 (overworld) while populating chunk [-34, -1], causing cascading worldgen lag.
+[18:48:48] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[18:48:48] [Server thread/WARN] [FML]: Quark loaded a new chunk [-34, -3] in dimension 0 (overworld) while populating chunk [-34, -1], causing cascading worldgen lag.
+[18:48:48] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[18:48:48] [Server thread/WARN] [FML]: Quark loaded a new chunk [-35, -2] in dimension 0 (overworld) while populating chunk [-34, -1], causing cascading worldgen lag.
+[18:48:48] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[18:48:48] [Server thread/WARN] [FML]: Quark loaded a new chunk [-35, -3] in dimension 0 (overworld) while populating chunk [-34, -1], causing cascading worldgen lag.
+[18:48:48] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[18:48:48] [Server thread/WARN] [FML]: Quark loaded a new chunk [-36, -4] in dimension 0 (overworld) while populating chunk [-34, -1], causing cascading worldgen lag.
+[18:48:48] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[18:48:48] [Server thread/WARN] [FML]: Quark loaded a new chunk [-22, -1] in dimension 0 (overworld) while populating chunk [-23, -1], causing cascading worldgen lag.
+[18:48:48] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[18:48:48] [Server thread/WARN] [FML]: Quark loaded a new chunk [-23, -2] in dimension 0 (overworld) while populating chunk [-23, -1], causing cascading worldgen lag.
+[18:48:48] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[18:48:48] [Server thread/WARN] [FML]: Quark loaded a new chunk [-22, -2] in dimension 0 (overworld) while populating chunk [-23, -1], causing cascading worldgen lag.
+[18:48:48] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
