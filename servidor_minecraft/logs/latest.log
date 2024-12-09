@@ -34943,3 +34943,5 @@ io.netty.handler.timeout.ReadTimeoutException: null
 [18:48:48] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
 [18:53:20] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ichi_demons: Set the time to 1000]
 [18:53:31] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ichi_demons: Set the time to 1000]
+[19:03:43] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ichi_demons: Set the time to 1000]
+[19:06:09] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: ichi_demons moved too quickly! -2.0357367682073004,-10.856489120741116,0.7799876876272549
