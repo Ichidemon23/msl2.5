@@ -360,3 +360,10 @@ java.util.zip.ZipException: error in opening zip file
 [14:13:19] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
 [14:13:19] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: ichi_demons[/100.111.167.116:50830] logged in with entity id 13314 at (-453.46076708138145, 63.0, 262.3945305637989)
 [14:13:19] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ichi_demons joined the game
+[14:13:40] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ichi_demons: Changing to clear weather]
+[14:16:44] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: ichi_demons moved too quickly! 9.958483032020922,0.0,2.6965028521244676
+[14:19:58] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ichi_demons: Changing to clear weather]
+[14:21:45] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: ichi_demons moved too quickly! -9.577573647696113,0.0,-3.774943043905864
+[14:21:55] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: ichi_demons moved too quickly! -1.205417737219932,0.0,-10.190309459058966
+[14:22:02] [Server thread/WARN] [FML]: Quark loaded a new chunk [-48, 4] in dimension 0 (overworld) while populating chunk [-47, 4], causing cascading worldgen lag.
+[14:22:02] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
