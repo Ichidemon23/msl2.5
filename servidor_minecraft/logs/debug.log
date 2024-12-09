@@ -11837,3 +11837,86 @@ io.netty.handler.timeout.ReadTimeoutException: null
 [23:26:01] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
 [23:26:46] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
 [23:27:31] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[23:28:16] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[23:29:01] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[23:29:46] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[23:30:31] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[23:31:14] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: ichi_demons lost connection: Timed out
+[23:31:14] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ichi_demons left the game
+[23:31:16] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[23:32:01] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[23:32:46] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[23:33:31] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[23:34:16] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[23:34:28] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Stopping the server
+[23:34:28] [Server thread/TRACE] [FML]: Sending event FMLServerStoppingEvent to mod minecraft
+[23:34:28] [Server thread/TRACE] [FML]: Sent event FMLServerStoppingEvent to mod minecraft
+[23:34:28] [Server thread/DEBUG] [FML]: Bar Step: ServerStopping - Minecraft took 0.000s
+[23:34:28] [Server thread/TRACE] [FML]: Sending event FMLServerStoppingEvent to mod mcp
+[23:34:28] [Server thread/TRACE] [FML]: Sent event FMLServerStoppingEvent to mod mcp
+[23:34:28] [Server thread/DEBUG] [FML]: Bar Step: ServerStopping - Minecraft Coder Pack took 0.000s
+[23:34:28] [Server thread/TRACE] [FML]: Sending event FMLServerStoppingEvent to mod FML
+[23:34:28] [Server thread/TRACE] [FML]: Sent event FMLServerStoppingEvent to mod FML
+[23:34:28] [Server thread/DEBUG] [FML]: Bar Step: ServerStopping - Forge Mod Loader took 0.000s
+[23:34:28] [Server thread/TRACE] [FML]: Sending event FMLServerStoppingEvent to mod forge
+[23:34:28] [Server thread/TRACE] [FML]: Sent event FMLServerStoppingEvent to mod forge
+[23:34:28] [Server thread/DEBUG] [FML]: Bar Step: ServerStopping - Minecraft Forge took 0.000s
+[23:34:28] [Server thread/TRACE] [FML]: Sending event FMLServerStoppingEvent to mod quark
+[23:34:28] [Server thread/TRACE] [FML]: Sent event FMLServerStoppingEvent to mod quark
+[23:34:28] [Server thread/DEBUG] [FML]: Bar Step: ServerStopping - Quark took 0.000s
+[23:34:28] [Server thread/TRACE] [FML]: Sending event FMLServerStoppingEvent to mod autoreglib
+[23:34:28] [Server thread/TRACE] [FML]: Sent event FMLServerStoppingEvent to mod autoreglib
+[23:34:28] [Server thread/DEBUG] [FML]: Bar Step: ServerStopping - AutoRegLib took 0.000s
+[23:34:28] [Server thread/TRACE] [FML]: Sending event FMLServerStoppingEvent to mod journeymap
+[23:34:28] [Server thread/TRACE] [FML]: Sent event FMLServerStoppingEvent to mod journeymap
+[23:34:28] [Server thread/DEBUG] [FML]: Bar Step: ServerStopping - JourneyMap took 0.000s
+[23:34:28] [Server thread/TRACE] [FML]: Sending event FMLServerStoppingEvent to mod personalcars
+[23:34:28] [Server thread/TRACE] [FML]: Sent event FMLServerStoppingEvent to mod personalcars
+[23:34:28] [Server thread/DEBUG] [FML]: Bar Step: ServerStopping - Personal Cars took 0.000s
+[23:34:28] [Server thread/TRACE] [FML]: Sending event FMLServerStoppingEvent to mod variedcommodities
+[23:34:28] [Server thread/TRACE] [FML]: Sent event FMLServerStoppingEvent to mod variedcommodities
+[23:34:28] [Server thread/DEBUG] [FML]: Bar Step: ServerStopping - Varied Commodities took 0.000s
+[23:34:28] [Server thread/TRACE] [FML]: Sending event FMLServerStoppingEvent to mod worldedit
+[23:34:28] [Server thread/TRACE] [FML]: Sent event FMLServerStoppingEvent to mod worldedit
+[23:34:28] [Server thread/DEBUG] [FML]: Bar Step: ServerStopping - WorldEdit took 0.001s
+[23:34:28] [Server thread/DEBUG] [FML]: Bar Finished: ServerStopping took 0.003s
+[23:34:28] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
+[23:34:28] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
+[23:34:28] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
+[23:34:28] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'world'/overworld
+[23:34:28] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[23:34:28] [Server thread/INFO] [FML]: Unloading dimension 0
+[23:34:28] [Server thread/TRACE] [FML]: Sending event FMLServerStoppedEvent to mod minecraft
+[23:34:28] [Server thread/TRACE] [FML]: Sent event FMLServerStoppedEvent to mod minecraft
+[23:34:28] [Server thread/DEBUG] [FML]: Bar Step: ServerStopped - Minecraft took 0.000s
+[23:34:28] [Server thread/TRACE] [FML]: Sending event FMLServerStoppedEvent to mod mcp
+[23:34:28] [Server thread/TRACE] [FML]: Sent event FMLServerStoppedEvent to mod mcp
+[23:34:28] [Server thread/DEBUG] [FML]: Bar Step: ServerStopped - Minecraft Coder Pack took 0.000s
+[23:34:28] [Server thread/TRACE] [FML]: Sending event FMLServerStoppedEvent to mod FML
+[23:34:28] [Server thread/TRACE] [FML]: Sent event FMLServerStoppedEvent to mod FML
+[23:34:28] [Server thread/DEBUG] [FML]: Bar Step: ServerStopped - Forge Mod Loader took 0.000s
+[23:34:28] [Server thread/TRACE] [FML]: Sending event FMLServerStoppedEvent to mod forge
+[23:34:28] [Server thread/TRACE] [FML]: Sent event FMLServerStoppedEvent to mod forge
+[23:34:28] [Server thread/DEBUG] [FML]: Bar Step: ServerStopped - Minecraft Forge took 0.000s
+[23:34:28] [Server thread/TRACE] [FML]: Sending event FMLServerStoppedEvent to mod quark
+[23:34:28] [Server thread/TRACE] [FML]: Sent event FMLServerStoppedEvent to mod quark
+[23:34:28] [Server thread/DEBUG] [FML]: Bar Step: ServerStopped - Quark took 0.000s
+[23:34:28] [Server thread/TRACE] [FML]: Sending event FMLServerStoppedEvent to mod autoreglib
+[23:34:28] [Server thread/TRACE] [FML]: Sent event FMLServerStoppedEvent to mod autoreglib
+[23:34:28] [Server thread/DEBUG] [FML]: Bar Step: ServerStopped - AutoRegLib took 0.000s
+[23:34:28] [Server thread/TRACE] [FML]: Sending event FMLServerStoppedEvent to mod journeymap
+[23:34:28] [Server thread/TRACE] [FML]: Sent event FMLServerStoppedEvent to mod journeymap
+[23:34:28] [Server thread/DEBUG] [FML]: Bar Step: ServerStopped - JourneyMap took 0.000s
+[23:34:28] [Server thread/TRACE] [FML]: Sending event FMLServerStoppedEvent to mod personalcars
+[23:34:28] [Server thread/TRACE] [FML]: Sent event FMLServerStoppedEvent to mod personalcars
+[23:34:28] [Server thread/DEBUG] [FML]: Bar Step: ServerStopped - Personal Cars took 0.000s
+[23:34:28] [Server thread/TRACE] [FML]: Sending event FMLServerStoppedEvent to mod variedcommodities
+[23:34:28] [Server thread/TRACE] [FML]: Sent event FMLServerStoppedEvent to mod variedcommodities
+[23:34:28] [Server thread/DEBUG] [FML]: Bar Step: ServerStopped - Varied Commodities took 0.000s
+[23:34:28] [Server thread/TRACE] [FML]: Sending event FMLServerStoppedEvent to mod worldedit
+[23:34:28] [Server thread/TRACE] [FML]: Sent event FMLServerStoppedEvent to mod worldedit
+[23:34:28] [Server thread/DEBUG] [FML]: Bar Step: ServerStopped - WorldEdit took 0.000s
+[23:34:28] [Server thread/DEBUG] [FML]: Bar Finished: ServerStopped took 0.002s
+[23:34:28] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
+[23:34:28] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
+[23:34:28] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds

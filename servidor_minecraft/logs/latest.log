@@ -416,3 +416,14 @@ io.netty.handler.timeout.ReadTimeoutException: null
 [23:08:37] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ichi_demons: Changing to clear weather]
 [23:15:58] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ichi_demons: Set the time to 1000]
 [23:16:03] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ichi_demons: Changing to clear weather]
+[23:31:14] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: ichi_demons lost connection: Timed out
+[23:31:14] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ichi_demons left the game
+[23:34:28] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Stopping the server
+[23:34:28] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
+[23:34:28] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
+[23:34:28] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
+[23:34:28] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'world'/overworld
+[23:34:28] [Server thread/INFO] [FML]: Unloading dimension 0
+[23:34:28] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
+[23:34:28] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
+[23:34:28] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
