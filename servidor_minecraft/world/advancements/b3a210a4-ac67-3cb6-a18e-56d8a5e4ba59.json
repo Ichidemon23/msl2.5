@@ -623,6 +623,12 @@
     },
     "done": true
   },
+  "minecraft:adventure/kill_all_mobs": {
+    "criteria": {
+      "zombie": "2024-12-09 20:22:04 +0000"
+    },
+    "done": false
+  },
   "minecraft:recipes/misc/ender_eye": {
     "criteria": {
       "has_the_recipe": "2024-12-08 19:33:46 +0000"
@@ -1064,6 +1070,12 @@
   "minecraft:recipes/building_blocks/red_concrete_powder": {
     "criteria": {
       "has_the_recipe": "2024-12-08 19:33:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_a_mob": {
+    "criteria": {
+      "zombie": "2024-12-09 20:22:04 +0000"
     },
     "done": true
   },
