@@ -34983,3 +34983,6 @@ io.netty.handler.timeout.ReadTimeoutException: null
 [19:29:38] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
 [19:29:38] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: ichi_demons[/100.111.167.116:53264] logged in with entity id 40751 at (-269.39788644106204, 63.0, 168.2239427805564)
 [19:29:38] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ichi_demons joined the game
+[19:33:39] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ichi_demons: Set the time to 1000]
+[19:34:20] [Server thread/WARN] [FML]: Quark loaded a new chunk [-49, 29] in dimension 0 (overworld) while populating chunk [-48, 30], causing cascading worldgen lag.
+[19:34:20] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
