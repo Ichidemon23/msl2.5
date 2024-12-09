@@ -34895,3 +34895,5 @@ io.netty.channel.unix.Errors$NativeIoException: syscall:writev(..) failed: Broke
 [17:30:18] [Server thread/INFO] [net.minecraft.server.network.NetHandlerLoginServer]: com.mojang.authlib.GameProfile@3fa1daa9[id=<null>,name=ichi_demons,properties={},legacy=false] (/100.111.167.116:64375) lost connection: Disconnected
 [17:30:18] [Server thread/INFO] [net.minecraft.server.network.NetHandlerLoginServer]: com.mojang.authlib.GameProfile@4a186a6c[id=<null>,name=ichi_demons,properties={},legacy=false] (/100.111.167.116:64384) lost connection: Disconnected
 [17:43:57] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ichi_demons: Changing to clear weather]
+[18:21:20] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: ichi_demons lost connection: Timed out
+[18:21:20] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ichi_demons left the game
