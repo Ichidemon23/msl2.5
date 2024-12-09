@@ -11525,3 +11525,21 @@ io.netty.channel.unix.Errors$NativeIoException: syscall:read(..) failed: Connect
 [21:35:46] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
 [21:36:31] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
 [21:37:16] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[21:38:01] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[21:38:46] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[21:39:31] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[21:40:16] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[21:40:51] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ichi_demons: Changing to clear weather]
+[21:40:55] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ichi_demons: Set the time to 1000]
+[21:41:01] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[21:41:15] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ichi_demons: Set the time to 1000]
+[21:41:46] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[21:42:31] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[21:43:16] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[21:43:39] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: ichi_demons lost connection: Timed out
+[21:43:39] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ichi_demons left the game
+[21:44:01] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[21:44:46] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[21:45:31] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[21:46:16] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[21:47:01] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
