@@ -11428,3 +11428,19 @@ java.util.zip.ZipException: error in opening zip file
 [14:22:02] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
 [14:22:33] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
 [14:23:18] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[14:24:03] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[14:24:48] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[14:25:33] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[14:26:18] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[14:27:03] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[14:27:48] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[14:28:33] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[14:29:18] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[14:30:03] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[14:30:18] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ichi_demons: Changing to clear weather]
+[14:30:48] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[14:31:33] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[14:32:18] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[14:32:41] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ichi_demons: Set the time to 1000]
+[14:32:52] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ichi_demons: Set the time to 1000]
+[14:33:03] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
