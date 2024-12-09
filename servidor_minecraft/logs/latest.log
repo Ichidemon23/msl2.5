@@ -34941,3 +34941,5 @@ io.netty.handler.timeout.ReadTimeoutException: null
 [18:48:48] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
 [18:48:48] [Server thread/WARN] [FML]: Quark loaded a new chunk [-22, -2] in dimension 0 (overworld) while populating chunk [-23, -1], causing cascading worldgen lag.
 [18:48:48] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[18:53:20] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ichi_demons: Set the time to 1000]
+[18:53:31] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ichi_demons: Set the time to 1000]
