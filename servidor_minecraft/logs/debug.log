@@ -11300,3 +11300,20 @@ java.util.zip.ZipException: error in opening zip file
 [16:33:15] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
 [16:34:00] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
 [16:34:04] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: ichi_demons moved too quickly! 0.09510418746165783,0.0,-10.014906238642851
+[16:34:45] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[16:35:30] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[16:36:15] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[16:37:00] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[16:37:05] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: ichi_demons moved too quickly! -0.01481628738110885,0.0,10.34301652233512
+[16:37:45] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[16:38:02] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: ichi_demons lost connection: Timed out
+[16:38:02] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ichi_demons left the game
+[16:38:30] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[16:39:15] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[16:40:00] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[16:40:45] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[16:41:30] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[16:42:15] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[16:43:00] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[16:43:45] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[16:44:30] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world

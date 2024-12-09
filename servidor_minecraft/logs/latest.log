@@ -289,3 +289,6 @@ java.util.zip.ZipException: error in opening zip file
 [16:28:07] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: ichi_demons moved too quickly! -1.409076556373691,0.0,9.986089711502245
 [16:31:51] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: ichi_demons moved too quickly! -0.8234094273638277,0.0,-10.132582361179288
 [16:34:04] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: ichi_demons moved too quickly! 0.09510418746165783,0.0,-10.014906238642851
+[16:37:05] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: ichi_demons moved too quickly! -0.01481628738110885,0.0,10.34301652233512
+[16:38:02] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: ichi_demons lost connection: Timed out
+[16:38:02] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ichi_demons left the game
