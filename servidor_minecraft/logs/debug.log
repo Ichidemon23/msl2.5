@@ -11620,3 +11620,18 @@ io.netty.handler.timeout.ReadTimeoutException: null
 [21:56:01] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
 [21:56:46] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
 [21:57:31] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[21:58:16] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[21:59:01] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[21:59:46] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[22:00:31] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[22:00:59] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: ichi_demons lost connection: Timed out
+[22:00:59] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ichi_demons left the game
+[22:01:16] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[22:02:01] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[22:02:46] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[22:03:31] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[22:04:16] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[22:05:01] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[22:05:46] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[22:06:31] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[22:07:16] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
