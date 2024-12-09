@@ -377,3 +377,5 @@ io.netty.handler.timeout.ReadTimeoutException: null
 [22:08:03] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ichi_demons joined the game
 [22:10:21] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ichi_demons: Set the time to 1000]
 [22:10:31] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ichi_demons: Changing to clear weather]
+[22:22:26] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ichi_demons: Changing to clear weather]
+[22:22:29] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ichi_demons: Set the time to 1000]
