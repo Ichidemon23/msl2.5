@@ -11359,3 +11359,94 @@ java.util.zip.ZipException: error in opening zip file
 [17:43:00] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
 [17:43:45] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
 [17:44:30] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[17:45:15] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[17:46:00] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[17:46:16] [Server thread/TRACE] [FML]: Handshake channel activating
+[17:46:16] [Server thread/DEBUG] [FML]: FMLHandshakeServerState: null->FMLHandshakeServerState$1:START
+[17:46:16] [Server thread/DEBUG] [FML]:   Next: HELLO
+[17:46:19] [Netty Epoll Server IO #1/DEBUG] [FML]: FMLHandshakeServerState: $ClientHello->FMLHandshakeServerState$2:HELLO
+[17:46:19] [Netty Epoll Server IO #1/INFO] [FML]: Client protocol version 2
+[17:46:20] [Netty Epoll Server IO #1/DEBUG] [FML]: FMLHandshakeServerState: $ModList:13 mods->FMLHandshakeServerState$2:HELLO
+[17:46:20] [Netty Epoll Server IO #1/INFO] [FML]: Client attempting to join with 13 mods : minecraft@1.12.2,ptrmodellib@1.0.5,FML@8.0.99.99,personalcars@1.4,worldedit@6.1.10,props@2.6.3.7,tlauncher_custom_cape_skin@1.4,forge@14.23.5.2860,quark@r1.6-179,mcp@9.42,journeymap@1.12.2-5.7.1p2,variedcommodities@1.12.2,autoreglib@1.3-32
+[17:46:20] [Netty Epoll Server IO #1/INFO] [journeymap]: CLIENT
+[17:46:20] [Netty Epoll Server IO #1/DEBUG] [FML]:   Next: WAITINGCACK
+[17:46:22] [Netty Epoll Server IO #1/DEBUG] [FML]: FMLHandshakeServerState: $HandshakeAck:{2}->FMLHandshakeServerState$3:WAITINGCACK
+[17:46:22] [Netty Epoll Server IO #1/DEBUG] [FML]:   Next: COMPLETE
+[17:46:45] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[17:46:52] [Netty Epoll Server IO #1/ERROR] [FML]: NetworkDispatcher exception
+io.netty.handler.timeout.ReadTimeoutException: null
+[17:46:52] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: ichi_demons lost connection: Timed out
+[17:46:52] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ichi_demons left the game
+[17:47:30] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[17:48:15] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[17:48:35] [Server thread/TRACE] [FML]: Handshake channel activating
+[17:48:35] [Server thread/DEBUG] [FML]: FMLHandshakeServerState: null->FMLHandshakeServerState$1:START
+[17:48:35] [Server thread/DEBUG] [FML]:   Next: HELLO
+[17:48:35] [Netty Epoll Server IO #2/DEBUG] [FML]: FMLHandshakeServerState: $ClientHello->FMLHandshakeServerState$2:HELLO
+[17:48:35] [Netty Epoll Server IO #2/INFO] [FML]: Client protocol version 2
+[17:48:35] [Netty Epoll Server IO #2/DEBUG] [FML]: FMLHandshakeServerState: $ModList:13 mods->FMLHandshakeServerState$2:HELLO
+[17:48:35] [Netty Epoll Server IO #2/INFO] [FML]: Client attempting to join with 13 mods : minecraft@1.12.2,ptrmodellib@1.0.5,FML@8.0.99.99,personalcars@1.4,worldedit@6.1.10,props@2.6.3.7,tlauncher_custom_cape_skin@1.4,forge@14.23.5.2860,quark@r1.6-179,mcp@9.42,journeymap@1.12.2-5.7.1p2,variedcommodities@1.12.2,autoreglib@1.3-32
+[17:48:35] [Netty Epoll Server IO #2/INFO] [journeymap]: CLIENT
+[17:48:35] [Netty Epoll Server IO #2/DEBUG] [FML]:   Next: WAITINGCACK
+[17:48:37] [Netty Epoll Server IO #2/DEBUG] [FML]: FMLHandshakeServerState: $HandshakeAck:{2}->FMLHandshakeServerState$3:WAITINGCACK
+[17:48:37] [Netty Epoll Server IO #2/DEBUG] [FML]:   Next: COMPLETE
+[17:48:40] [Netty Epoll Server IO #2/DEBUG] [FML]: FMLHandshakeServerState: $HandshakeAck:{3}->FMLHandshakeServerState$4:COMPLETE
+[17:48:40] [Netty Epoll Server IO #2/DEBUG] [FML]:   Next: DONE
+[17:48:40] [Netty Epoll Server IO #2/DEBUG] [FML]: FMLHandshakeServerState: $HandshakeAck:{4}->FMLHandshakeServerState$5:DONE
+[17:48:40] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[17:48:40] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: ichi_demons[/100.111.167.116:60585] logged in with entity id 17286 at (-228.04271925692458, 63.0, 481.2412280758819)
+[17:48:40] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ichi_demons joined the game
+[17:48:40] [Netty Epoll Server IO #2/DEBUG] [FML]: FMLHandshakeServerState: $HandshakeAck:{5}->FMLHandshakeServerState$5:DONE
+[17:49:00] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[17:49:26] [Netty Epoll Server IO #2/ERROR] [FML]: NetworkDispatcher exception
+io.netty.handler.timeout.ReadTimeoutException: null
+[17:49:26] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: ichi_demons lost connection: Disconnected
+[17:49:26] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ichi_demons left the game
+[17:49:45] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[17:50:30] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[17:51:15] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[17:51:17] [Server thread/TRACE] [FML]: Handshake channel activating
+[17:51:17] [Server thread/DEBUG] [FML]: FMLHandshakeServerState: null->FMLHandshakeServerState$1:START
+[17:51:17] [Server thread/DEBUG] [FML]:   Next: HELLO
+[17:51:18] [Netty Epoll Server IO #3/DEBUG] [FML]: FMLHandshakeServerState: $ClientHello->FMLHandshakeServerState$2:HELLO
+[17:51:18] [Netty Epoll Server IO #3/INFO] [FML]: Client protocol version 2
+[17:51:18] [Netty Epoll Server IO #3/DEBUG] [FML]: FMLHandshakeServerState: $ModList:13 mods->FMLHandshakeServerState$2:HELLO
+[17:51:18] [Netty Epoll Server IO #3/INFO] [FML]: Client attempting to join with 13 mods : minecraft@1.12.2,ptrmodellib@1.0.5,FML@8.0.99.99,personalcars@1.4,worldedit@6.1.10,props@2.6.3.7,tlauncher_custom_cape_skin@1.4,forge@14.23.5.2860,quark@r1.6-179,mcp@9.42,journeymap@1.12.2-5.7.1p2,variedcommodities@1.12.2,autoreglib@1.3-32
+[17:51:18] [Netty Epoll Server IO #3/INFO] [journeymap]: CLIENT
+[17:51:18] [Netty Epoll Server IO #3/DEBUG] [FML]:   Next: WAITINGCACK
+[17:51:18] [Netty Epoll Server IO #3/DEBUG] [FML]: FMLHandshakeServerState: $HandshakeAck:{2}->FMLHandshakeServerState$3:WAITINGCACK
+[17:51:18] [Netty Epoll Server IO #3/DEBUG] [FML]:   Next: COMPLETE
+[17:51:21] [Netty Epoll Server IO #3/DEBUG] [FML]: FMLHandshakeServerState: $HandshakeAck:{3}->FMLHandshakeServerState$4:COMPLETE
+[17:51:21] [Netty Epoll Server IO #3/DEBUG] [FML]:   Next: DONE
+[17:51:21] [Netty Epoll Server IO #3/DEBUG] [FML]: FMLHandshakeServerState: $HandshakeAck:{4}->FMLHandshakeServerState$5:DONE
+[17:51:21] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[17:51:21] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: ichi_demons[/100.111.167.116:60599] logged in with entity id 17391 at (-228.04271925692458, 63.0, 481.2412280758819)
+[17:51:21] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ichi_demons joined the game
+[17:51:22] [Netty Epoll Server IO #3/DEBUG] [FML]: FMLHandshakeServerState: $HandshakeAck:{5}->FMLHandshakeServerState$5:DONE
+[17:52:00] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[17:52:08] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: ichi_demons lost connection: Timed out
+[17:52:08] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ichi_demons left the game
+[17:52:45] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[17:53:11] [Server thread/TRACE] [FML]: Handshake channel activating
+[17:53:11] [Server thread/DEBUG] [FML]: FMLHandshakeServerState: null->FMLHandshakeServerState$1:START
+[17:53:11] [Server thread/DEBUG] [FML]:   Next: HELLO
+[17:53:11] [Netty Epoll Server IO #0/DEBUG] [FML]: FMLHandshakeServerState: $ClientHello->FMLHandshakeServerState$2:HELLO
+[17:53:11] [Netty Epoll Server IO #0/INFO] [FML]: Client protocol version 2
+[17:53:11] [Netty Epoll Server IO #0/DEBUG] [FML]: FMLHandshakeServerState: $ModList:13 mods->FMLHandshakeServerState$2:HELLO
+[17:53:11] [Netty Epoll Server IO #0/INFO] [FML]: Client attempting to join with 13 mods : minecraft@1.12.2,ptrmodellib@1.0.5,FML@8.0.99.99,personalcars@1.4,worldedit@6.1.10,props@2.6.3.7,tlauncher_custom_cape_skin@1.4,forge@14.23.5.2860,quark@r1.6-179,mcp@9.42,journeymap@1.12.2-5.7.1p2,variedcommodities@1.12.2,autoreglib@1.3-32
+[17:53:11] [Netty Epoll Server IO #0/INFO] [journeymap]: CLIENT
+[17:53:11] [Netty Epoll Server IO #0/DEBUG] [FML]:   Next: WAITINGCACK
+[17:53:12] [Netty Epoll Server IO #0/DEBUG] [FML]: FMLHandshakeServerState: $HandshakeAck:{2}->FMLHandshakeServerState$3:WAITINGCACK
+[17:53:12] [Netty Epoll Server IO #0/DEBUG] [FML]:   Next: COMPLETE
+[17:53:16] [Netty Epoll Server IO #0/DEBUG] [FML]: FMLHandshakeServerState: $HandshakeAck:{3}->FMLHandshakeServerState$4:COMPLETE
+[17:53:16] [Netty Epoll Server IO #0/DEBUG] [FML]:   Next: DONE
+[17:53:16] [Netty Epoll Server IO #0/DEBUG] [FML]: FMLHandshakeServerState: $HandshakeAck:{4}->FMLHandshakeServerState$5:DONE
+[17:53:16] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[17:53:16] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: ichi_demons[/100.111.167.116:60603] logged in with entity id 17910 at (-229.73871508222157, 63.0, 441.17322785102255)
+[17:53:16] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ichi_demons joined the game
+[17:53:17] [Netty Epoll Server IO #0/DEBUG] [FML]: FMLHandshakeServerState: $HandshakeAck:{5}->FMLHandshakeServerState$5:DONE
+[17:53:30] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[17:54:05] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: ichi_demons lost connection: Disconnected
+[17:54:05] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ichi_demons left the game
+[17:54:15] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[17:55:00] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
