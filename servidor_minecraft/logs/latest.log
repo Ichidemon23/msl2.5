@@ -288,3 +288,6 @@ java.util.zip.ZipException: error in opening zip file
 [16:53:12] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
 [16:53:12] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: ichi_demons[/100.111.167.116:60300] logged in with entity id 1358 at (-518.9637865437946, 63.0, 504.9256489678991)
 [16:53:12] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ichi_demons joined the game
+[17:27:47] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: ichi_demons moved too quickly! 10.277382988834802,1.1661092609382138,0.23397787174621953
+[17:32:00] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: ichi_demons lost connection: Timed out
+[17:32:00] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ichi_demons left the game
