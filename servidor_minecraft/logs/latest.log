@@ -474,3 +474,5 @@ io.netty.handler.timeout.ReadTimeoutException: null
 [19:15:15] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: ichi_demons moved too quickly! 8.993089707534182,0.0,4.585018070037506
 [19:22:19] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ichi_demons: Set the time to 1000]
 [19:22:37] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ichi_demons: Set the time to 1000]
+[19:33:32] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: ichi_demons lost connection: Timed out
+[19:33:32] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ichi_demons left the game
