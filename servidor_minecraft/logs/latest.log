@@ -279,3 +279,4 @@ java.util.zip.ZipException: error in opening zip file
 [22:13:56] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
 [22:13:56] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: ichi_demons[/100.111.167.116:62214] logged in with entity id 585 at (-648.388042557135, 63.0, 101.95238872761055)
 [22:13:56] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ichi_demons joined the game
+[22:26:10] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ichi_demons: Changing to clear weather]
