@@ -307,3 +307,4 @@ io.netty.handler.timeout.ReadTimeoutException: null
 [19:52:54] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: ichi_demons[/100.111.167.116:61461] logged in with entity id 1396 at (-333.8651139633531, 63.0, 88.92466763882952)
 [19:52:54] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ichi_demons joined the game
 [19:55:02] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ichi_demons: Set the time to 1000]
+[19:55:51] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: ichi_demons moved too quickly! -10.142483335690258,0.0,0.04312521990537732
