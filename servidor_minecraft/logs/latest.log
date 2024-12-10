@@ -417,3 +417,9 @@ io.netty.handler.timeout.ReadTimeoutException: null
 [18:33:35] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ichi_demons joined the game
 [18:34:15] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: ichi_demons lost connection: Timed out
 [18:34:15] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ichi_demons left the game
+[18:45:02] [Netty Epoll Server IO #3/INFO] [FML]: Client protocol version 2
+[18:45:02] [Netty Epoll Server IO #3/INFO] [FML]: Client attempting to join with 13 mods : minecraft@1.12.2,ptrmodellib@1.0.5,FML@8.0.99.99,personalcars@1.4,worldedit@6.1.10,props@2.6.3.7,tlauncher_custom_cape_skin@1.4,forge@14.23.5.2860,quark@r1.6-179,mcp@9.42,journeymap@1.12.2-5.7.1p2,variedcommodities@1.12.2,autoreglib@1.3-32
+[18:45:02] [Netty Epoll Server IO #3/INFO] [journeymap]: CLIENT
+[18:45:04] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[18:45:04] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: ichi_demons[/100.111.167.116:61012] logged in with entity id 26004 at (-232.69563413962135, 63.0, 238.64505914007106)
+[18:45:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ichi_demons joined the game
