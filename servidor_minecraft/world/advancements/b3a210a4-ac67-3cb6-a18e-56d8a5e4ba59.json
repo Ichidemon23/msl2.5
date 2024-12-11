@@ -347,6 +347,12 @@
     },
     "done": true
   },
+  "cfm:bathroom": {
+    "criteria": {
+      "get_bathroom_furniture": "2024-12-10 23:39:53 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/brewing/speckled_melon": {
     "criteria": {
       "has_the_recipe": "2024-12-08 19:33:46 +0000"
@@ -362,6 +368,12 @@
   "minecraft:recipes/misc/iron_ingot_from_block": {
     "criteria": {
       "has_the_recipe": "2024-12-08 19:33:46 +0000"
+    },
+    "done": true
+  },
+  "cfm:what_did_you_eat": {
+    "criteria": {
+      "player_fart": "2024-12-10 23:40:56 +0000"
     },
     "done": true
   },
@@ -1316,6 +1328,12 @@
     },
     "done": true
   },
+  "cfm:root": {
+    "criteria": {
+      "tick": "2024-12-10 23:15:18 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/cookie": {
     "criteria": {
       "has_the_recipe": "2024-12-08 19:33:46 +0000"
@@ -1859,6 +1877,12 @@
   "minecraft:recipes/building_blocks/green_concrete_powder": {
     "criteria": {
       "has_the_recipe": "2024-12-08 19:33:46 +0000"
+    },
+    "done": true
+  },
+  "cfm:install": {
+    "criteria": {
+      "tick": "2024-12-10 23:15:18 +0000"
     },
     "done": true
   },
