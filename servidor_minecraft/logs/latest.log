@@ -317,3 +317,6 @@ io.netty.handler.timeout.ReadTimeoutException: null
 [14:38:44] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: ichi_demons[/100.111.167.116:53639] logged in with entity id 1196 at (-648.3000000119209, 68.0, 95.0033914731741)
 [14:38:44] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ichi_demons joined the game
 [14:39:52] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ichi_demons has made the advancement [Appliance City]
+[14:41:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ichi_demons has made the advancement [Sexy Time]
+[14:44:17] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ichi_demons has made the advancement [Sweet dreams]
+[14:47:14] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ichi_demons has made the advancement [House Party]
