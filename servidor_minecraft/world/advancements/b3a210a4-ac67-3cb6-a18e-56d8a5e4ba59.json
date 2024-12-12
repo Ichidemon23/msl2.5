@@ -2510,6 +2510,12 @@
     },
     "done": true
   },
+  "cfm:appliance_city": {
+    "criteria": {
+      "place_appliance": "2024-12-12 14:39:52 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/nether_brick_stairs": {
     "criteria": {
       "has_the_recipe": "2024-12-08 19:33:46 +0000"
