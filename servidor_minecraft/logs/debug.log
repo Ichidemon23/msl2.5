@@ -13870,3 +13870,20 @@
 [16:44:23] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
 [16:45:08] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
 [16:45:53] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[16:46:38] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[16:47:23] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[16:48:08] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[16:48:53] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[16:49:38] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[16:50:23] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[16:51:08] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[16:51:53] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[16:52:38] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[16:53:23] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[16:54:08] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[16:54:18] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ichi_demons: Changing to clear weather]
+[16:54:53] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[16:54:57] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: ichi_demons lost connection: Timed out
+[16:54:57] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ichi_demons left the game
+[16:54:57] [Server thread/WARN] [net.minecraft.network.NetworkManager]: handleDisconnection() called twice
+[16:55:38] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
