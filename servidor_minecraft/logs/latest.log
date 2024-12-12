@@ -1,372 +1,296 @@
-[15:35:39] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
-[15:35:39] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
-[15:35:39] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLServerTweaker
-[15:35:39] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2860 for Minecraft 1.12.2 loading
-[15:35:39] [main/INFO] [FML]: Java is OpenJDK 64-Bit Server VM, version 1.8.0_432, running on Linux:amd64:6.5.0-1025-azure, installed at /usr/lib/jvm/java-8-openjdk-amd64/jre
-[15:35:39] [main/INFO] [FML]: Searching /workspaces/msl2.5/servidor_minecraft/./mods for mods
-[15:35:39] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in Quark-r1.6-179.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
-[15:35:39] [main/WARN] [FML]: The coremod Quark Plugin (vazkii.quark.base.asm.LoadingPlugin) is not signed!
-[15:35:39] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[15:35:39] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[15:35:39] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[15:35:39] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[15:35:39] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[15:35:41] [main/INFO] [FML]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557
-[15:35:41] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[15:35:41] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[15:35:42] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[15:35:42] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
-[15:35:42] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
-[15:35:42] [main/INFO] [Quark ASM]: Transforming net.minecraft.world.WorldServer
-[15:35:42] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [areAllPlayersAsleep, func_73056_e] Descriptor ()Z)
-[15:35:42] [main/INFO] [Quark ASM]: Located Method, patching...
-[15:35:42] [main/INFO] [Quark ASM]: Patch result: true
-[15:35:42] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [wakeAllPlayers, func_73053_d] Descriptor ()V)
-[15:35:42] [main/INFO] [Quark ASM]: Located Method, patching...
-[15:35:42] [main/INFO] [Quark ASM]: Patch result: true
-[15:35:42] [main/INFO] [Quark ASM]: Transforming net.minecraft.entity.Entity
-[15:35:42] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [move, func_70091_d] Descriptor (Lnet/minecraft/entity/MoverType;DDD)V)
-[15:35:42] [main/INFO] [Quark ASM]: Located Method, patching...
-[15:35:42] [main/INFO] [Quark ASM]: Patch result: true
-[15:35:42] [main/INFO] [Quark ASM]: Located Method, patching...
-[15:35:42] [main/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/entity/Entity.func_145775_I ()V
-[15:35:42] [main/INFO] [Quark ASM]: Patch result: true
-[15:35:42] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [onEntityUpdate, func_70030_z] Descriptor ()V)
-[15:35:42] [main/INFO] [Quark ASM]: Located Method, patching...
-[15:35:42] [main/INFO] [Quark ASM]: Patch result: true
-[15:35:42] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.server.MinecraftServer}
-[15:35:42] [main/INFO] [Quark ASM]: Transforming net.minecraft.enchantment.Enchantment
-[15:35:42] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [canApply, func_92089_a] Descriptor (Lnet/minecraft/item/ItemStack;)Z)
-[15:35:42] [main/INFO] [Quark ASM]: Located Method, patching...
-[15:35:42] [main/INFO] [Quark ASM]: Located patch target node IRETURN
-[15:35:42] [main/INFO] [Quark ASM]: Patch result: true
-[15:35:43] [main/INFO] [Quark ASM]: Transforming net.minecraft.entity.item.EntityItem
-[15:35:43] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [onUpdate, func_70071_h_] Descriptor ()V)
-[15:35:43] [main/INFO] [Quark ASM]: Located Method, patching...
-[15:35:43] [main/INFO] [Quark ASM]: Patch result: true
-[15:35:43] [main/INFO] [Quark ASM]: Transforming net.minecraft.item.ItemStack
-[15:35:43] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [getTextComponent, func_151000_E] Descriptor ()Lnet/minecraft/util/text/ITextComponent;)
-[15:35:43] [main/INFO] [Quark ASM]: Located Method, patching...
-[15:35:43] [main/INFO] [Quark ASM]: Located patch target node ARETURN
-[15:35:43] [main/INFO] [Quark ASM]: Patch result: true
-[15:35:43] [main/INFO] [Quark ASM]: Transforming net.minecraft.block.BlockDynamicLiquid
-[15:35:43] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [isBlocked, func_176372_g] Descriptor (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;)Z)
-[15:35:43] [main/INFO] [Quark ASM]: Located Method, patching...
-[15:35:43] [main/INFO] [Quark ASM]: Located patch target node IRETURN
-[15:35:43] [main/INFO] [Quark ASM]: Located patch target node IRETURN
-[15:35:43] [main/INFO] [Quark ASM]: Patch result: true
-[15:35:43] [main/INFO] [Quark ASM]: Transforming net.minecraft.block.BlockPistonBase
-[15:35:43] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [canPush, func_185646_a] Descriptor (Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;ZLnet/minecraft/util/EnumFacing;)Z)
-[15:35:43] [main/INFO] [Quark ASM]: Located Method, patching...
-[15:35:43] [main/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/block/Block.hasTileEntity (Lnet/minecraft/block/state/IBlockState;)Z
-[15:35:43] [main/INFO] [Quark ASM]: Patch result: true
-[15:35:43] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [doMove, func_176319_a] Descriptor (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;Z)Z)
-[15:35:43] [main/INFO] [Quark ASM]: Located Method, patching...
-[15:35:43] [main/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/block/state/BlockPistonStructureHelper.func_177254_c ()Ljava/util/List;
-[15:35:43] [main/INFO] [Quark ASM]: Patch result: true
-[15:35:43] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [doMove, func_176319_a] Descriptor (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;Z)Z)
-[15:35:43] [main/INFO] [Quark ASM]: Located Method, patching...
-[15:35:43] [main/INFO] [Quark ASM]: Located patch target node INVOKESPECIAL net/minecraft/block/state/BlockPistonStructureHelper.<init> (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;Z)V
-[15:35:43] [main/INFO] [Quark ASM]: Patch result: true
-[15:35:43] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [checkForMove, func_176316_e] Descriptor (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;)V)
-[15:35:43] [main/INFO] [Quark ASM]: Located Method, patching...
-[15:35:43] [main/INFO] [Quark ASM]: Located patch target node INVOKESPECIAL net/minecraft/block/state/BlockPistonStructureHelper.<init> (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;Z)V
-[15:35:43] [main/INFO] [Quark ASM]: Patch result: true
-[15:35:43] [main/INFO] [Quark ASM]: Transforming net.minecraft.tileentity.TileEntityPiston
-[15:35:43] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [update, func_73660_a] Descriptor ()V)
-[15:35:43] [main/INFO] [Quark ASM]: Located Method, patching...
-[15:35:43] [main/INFO] [Quark ASM]: Patch result: true
-[15:35:43] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [clearPistonTileEntity, func_145866_f] Descriptor ()V)
-[15:35:43] [main/INFO] [Quark ASM]: Located Method, patching...
-[15:35:43] [main/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/world/World.func_180501_a (Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;I)Z
-[15:35:43] [main/INFO] [Quark ASM]: Patch result: true
-[15:35:43] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [update, func_73660_a] Descriptor ()V)
-[15:35:43] [main/INFO] [Quark ASM]: Located Method, patching...
-[15:35:43] [main/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/world/World.func_180501_a (Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;I)Z
-[15:35:43] [main/INFO] [Quark ASM]: Patch result: true
-[15:35:44] [main/INFO] [Quark ASM]: Transforming net.minecraft.enchantment.EnchantmentDamage
-[15:35:44] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [canApply, func_92089_a] Descriptor (Lnet/minecraft/item/ItemStack;)Z)
-[15:35:44] [main/INFO] [Quark ASM]: Located Method, patching...
-[15:35:44] [main/INFO] [Quark ASM]: Located patch target node IRETURN
-[15:35:44] [main/INFO] [Quark ASM]: Located patch target node IRETURN
-[15:35:44] [main/INFO] [Quark ASM]: Patch result: true
-[15:35:44] [main/INFO] [Quark ASM]: Transforming net.minecraft.entity.item.EntityMinecart
-[15:35:44] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [killMinecart, func_94095_a] Descriptor (Lnet/minecraft/util/DamageSource;)V)
-[15:35:44] [main/INFO] [Quark ASM]: Located Method, patching...
-[15:35:44] [main/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/entity/item/EntityMinecart.func_70099_a (Lnet/minecraft/item/ItemStack;F)Lnet/minecraft/entity/item/EntityItem;
-[15:35:44] [main/INFO] [Quark ASM]: Patch result: true
-[15:35:44] [main/INFO] [Quark ASM]: Transforming net.minecraft.entity.item.EntityBoat
-[15:35:44] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [attackEntityFrom, func_70097_a] Descriptor (Lnet/minecraft/util/DamageSource;F)Z)
-[15:35:44] [main/INFO] [Quark ASM]: Located Method, patching...
-[15:35:44] [main/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/entity/item/EntityBoat.func_145778_a (Lnet/minecraft/item/Item;IF)Lnet/minecraft/entity/item/EntityItem;
-[15:35:44] [main/INFO] [Quark ASM]: Patch result: true
-[15:35:44] [main/INFO] [Quark ASM]: Transforming net.minecraft.item.ItemBanner
-[15:35:44] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [appendHoverTextFromTileEntityTag, func_185054_a] Descriptor (Lnet/minecraft/item/ItemStack;Ljava/util/List;)V)
-[15:35:44] [main/INFO] [Quark ASM]: Failed to locate the method!
-[15:35:45] [main/INFO] [Quark ASM]: Transforming net.minecraft.entity.ai.EntityAITarget
-[15:35:45] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [isSuitableTarget, func_179445_a] Descriptor (Lnet/minecraft/entity/EntityLiving;Lnet/minecraft/entity/EntityLivingBase;ZZ)Z)
-[15:35:45] [main/INFO] [Quark ASM]: Located Method, patching...
-[15:35:45] [main/INFO] [Quark ASM]: Patch result: true
-[15:35:45] [main/INFO] [Quark ASM]: Transforming net.minecraft.item.crafting.RecipesBanners$RecipeAddPattern
-[15:35:45] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [matches, func_77569_a] Descriptor (Lnet/minecraft/inventory/InventoryCrafting;Lnet/minecraft/world/World;)Z)
-[15:35:45] [main/INFO] [Quark ASM]: Located Method, patching...
-[15:35:45] [main/INFO] [Quark ASM]: Located patch target node INVOKESTATIC net/minecraft/tileentity/TileEntityBanner.func_175113_c (Lnet/minecraft/item/ItemStack;)I
-[15:35:45] [main/INFO] [Quark ASM]: Patch result: true
-[15:35:46] [main/INFO] [Quark ASM]: Transforming net.minecraft.inventory.ContainerMerchant
-[15:35:46] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [transferStackInSlot, func_82846_b] Descriptor (Lnet/minecraft/entity/player/EntityPlayer;I)Lnet/minecraft/item/ItemStack;)
-[15:35:46] [main/INFO] [Quark ASM]: Located Method, patching...
-[15:35:46] [main/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/inventory/ContainerMerchant.func_75135_a (Lnet/minecraft/item/ItemStack;IIZ)Z
-[15:35:46] [main/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/inventory/ContainerMerchant.func_75135_a (Lnet/minecraft/item/ItemStack;IIZ)Z
-[15:35:46] [main/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/inventory/ContainerMerchant.func_75135_a (Lnet/minecraft/item/ItemStack;IIZ)Z
-[15:35:46] [main/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/inventory/ContainerMerchant.func_75135_a (Lnet/minecraft/item/ItemStack;IIZ)Z
-[15:35:46] [main/INFO] [Quark ASM]: Patch result: true
-[15:35:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting minecraft server version 1.12.2
-[15:35:46] [Server thread/INFO] [FML]: MinecraftForge v14.23.5.2860 Initialized
-[15:35:46] [Server thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
-[15:35:46] [Server thread/INFO] [FML]: Invalid recipe found with multiple oredict ingredients in the same ingredient...
-[15:35:47] [Server thread/INFO] [FML]: Replaced 1227 ore ingredients
-[15:35:47] [Server thread/INFO] [FML]: Searching /workspaces/msl2.5/servidor_minecraft/./mods for mods
-[15:35:48] [Server thread/INFO] [FML]: Forge Mod Loader has identified 12 mods to load
-[15:35:48] [Server thread/WARN] [FML]: Missing English translation for FML: assets/fml/lang/en_us.lang
-[15:35:48] [Server thread/WARN] [FML]: Missing English translation for worldedit: assets/worldedit/lang/en_us.lang
-[15:35:48] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, autoreglib, customnpcs, cfm, journeymap, personalcars, quark, variedcommodities, worldedit] at CLIENT
-[15:35:48] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, autoreglib, customnpcs, cfm, journeymap, personalcars, quark, variedcommodities, worldedit] at SERVER
-[15:35:49] [Server thread/INFO] [FML]: Processing ObjectHolder annotations
-[15:35:49] [Server thread/INFO] [FML]: Found 1582 ObjectHolder annotations
-[15:35:49] [Server thread/INFO] [FML]: Identifying ItemStackHolder annotations
-[15:35:49] [Server thread/INFO] [FML]: Found 0 ItemStackHolder annotations
-[15:35:49] [Server thread/INFO] [FML]: Configured a dormant chunk cache size of 0
-[15:35:49] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
-[15:35:50] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: AHEAD Target: null
-[15:35:50] [Server thread/INFO] [Quark ASM]: Transforming net.minecraft.util.DamageSource
-[15:35:50] [Server thread/INFO] [Quark ASM]: Applying Transformation to method (Names [causePlayerDamage, func_76365_a] Descriptor (Lnet/minecraft/entity/player/EntityPlayer;)Lnet/minecraft/util/DamageSource;)
-[15:35:50] [Server thread/INFO] [Quark ASM]: Located Method, patching...
-[15:35:50] [Server thread/INFO] [Quark ASM]: Patch result: true
-[15:35:51] [Server thread/INFO] [Quark]: Module management is enabled
-[15:35:51] [Server thread/INFO] [Quark]: Module building is enabled
-[15:35:51] [Server thread/INFO] [Quark]: Module world is enabled
-[15:35:51] [Server thread/INFO] [Quark]: Module tweaks is enabled
-[15:35:51] [Server thread/INFO] [Quark]: Module decoration is enabled
-[15:35:51] [Server thread/INFO] [Quark]: Module client is enabled
-[15:35:51] [Server thread/INFO] [Quark]: Module misc is enabled
-[15:35:51] [Server thread/INFO] [Quark]: Module experimental is enabled
-[15:35:51] [Server thread/INFO] [Quark]: Module vanity is enabled
-[15:35:51] [Server thread/INFO] [Quark]: Module automation is enabled
-[15:35:56] [Server thread/INFO] [personalcars]: Registering blocks...
-[15:35:56] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tile.keymodifier`, expected `personalcars`. This could be a intended override, but in most cases indicates a broken mod.
-[15:35:56] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tileredstoneblock`, expected `customnpcs`. This could be a intended override, but in most cases indicates a broken mod.
-[15:35:56] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tileblockanvil`, expected `customnpcs`. This could be a intended override, but in most cases indicates a broken mod.
-[15:35:56] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tilemailbox`, expected `customnpcs`. This could be a intended override, but in most cases indicates a broken mod.
-[15:35:56] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tilewaypoint`, expected `customnpcs`. This could be a intended override, but in most cases indicates a broken mod.
-[15:35:56] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tilenpcscripted`, expected `customnpcs`. This could be a intended override, but in most cases indicates a broken mod.
-[15:35:56] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tilenpcscripteddoor`, expected `customnpcs`. This could be a intended override, but in most cases indicates a broken mod.
-[15:35:56] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tilenpcbuilder`, expected `customnpcs`. This could be a intended override, but in most cases indicates a broken mod.
-[15:35:56] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tilenpccopy`, expected `customnpcs`. This could be a intended override, but in most cases indicates a broken mod.
-[15:35:56] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tilenpcborder`, expected `customnpcs`. This could be a intended override, but in most cases indicates a broken mod.
-[15:35:57] [Server thread/INFO] [FML]: Applying holder lookups
-[15:35:57] [Server thread/INFO] [FML]: Holder lookups applied
-[15:35:57] [Server thread/INFO] [personalcars]: Registering items...
-[15:35:57] [Server thread/INFO] [FML]: Applying holder lookups
-[15:35:57] [Server thread/INFO] [FML]: Holder lookups applied
-[15:35:57] [Server thread/INFO] [personalcars]: Registering sound events...
-[15:35:57] [Server thread/INFO] [FML]: Applying holder lookups
-[15:35:57] [Server thread/INFO] [FML]: Holder lookups applied
-[15:35:57] [Server thread/INFO] [FML]: Applying holder lookups
-[15:35:57] [Server thread/INFO] [FML]: Holder lookups applied
-[15:35:57] [Server thread/INFO] [FML]: Injecting itemstacks
-[15:35:57] [Server thread/INFO] [FML]: Itemstack injection complete
-[15:35:57] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Loading properties
-[15:35:57] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Default game type: SURVIVAL
-[15:35:57] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Generating keypair
-[15:35:57] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting Minecraft server on *:25565
-[15:35:57] [Server thread/INFO] [net.minecraft.network.NetworkSystem]: Using epoll channel type
-[15:35:58] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[15:35:58] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: The server will make no attempt to authenticate usernames. Beware.
-[15:35:58] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[15:35:58] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: To change this, set "online-mode" to "true" in the server.properties file.
-[15:35:58] [Server thread/INFO] [personalcars]: Registering crafting recipes...
-[15:35:58] [Server thread/INFO] [FML]: Applying holder lookups
-[15:35:58] [Server thread/INFO] [FML]: Holder lookups applied
-[15:36:03] [Server thread/INFO] [noppes.npcs.CustomNpcs]: CustomNPC Permissions available:
-[15:36:03] [Server thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.edit.blocks
-[15:36:03] [Server thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.edit.villager
-[15:36:03] [Server thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.global.bank
-[15:36:03] [Server thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.global.dialog
-[15:36:03] [Server thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.global.faction
-[15:36:03] [Server thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.global.linked
-[15:36:03] [Server thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.global.naturalspawn
-[15:36:03] [Server thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.global.playerdata
-[15:36:03] [Server thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.global.quest
-[15:36:03] [Server thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.global.recipe
-[15:36:03] [Server thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.global.transport
-[15:36:03] [Server thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.npc.advanced
-[15:36:03] [Server thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.npc.ai
-[15:36:03] [Server thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.npc.clone
-[15:36:03] [Server thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.npc.create
-[15:36:03] [Server thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.npc.delete
-[15:36:03] [Server thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.npc.display
-[15:36:03] [Server thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.npc.freeze
-[15:36:03] [Server thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.npc.gui
-[15:36:03] [Server thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.npc.inventory
-[15:36:03] [Server thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.npc.reset
-[15:36:03] [Server thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.npc.stats
-[15:36:03] [Server thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.scenes
-[15:36:03] [Server thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.soulstone.all
-[15:36:03] [Server thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.spawner.create
-[15:36:03] [Server thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.spawner.mob
-[15:36:03] [Server thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.tool.mounter
-[15:36:03] [Server thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.tool.nbtbook
-[15:36:03] [Server thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.tool.pather
-[15:36:03] [Server thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.tool.scripter
-[15:36:03] [Server thread/INFO] [STDOUT]: [noppes.npcs.CustomNpcs:load:258]: Markov dictionaries loaded!
-[15:36:03] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmoven`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
-[15:36:03] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmfridge`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
-[15:36:03] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmcabinet`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
-[15:36:03] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmfreezer`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
-[15:36:03] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmbedsidecabinet`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
-[15:36:03] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmmailbox`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
-[15:36:03] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmcomputer`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
-[15:36:03] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmprinter`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
-[15:36:03] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmstereo`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
-[15:36:03] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmpresent`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
-[15:36:03] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmbin`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
-[15:36:03] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmwallcabinet`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
-[15:36:03] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmbath`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
-[15:36:03] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmshowerhead`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
-[15:36:03] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmplate`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
-[15:36:03] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmcouch`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
-[15:36:03] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmtoaster`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
-[15:36:03] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmchoppingboard`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
-[15:36:03] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmblender`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
-[15:36:03] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmmicrowave`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
-[15:36:03] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmwashingmachine`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
-[15:36:03] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmdishwasher`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
-[15:36:03] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmcabinetkitchen`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
-[15:36:03] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmcup`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
-[15:36:03] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmcookiejar`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
-[15:36:03] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmtree`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
-[15:36:03] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmmirror`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
-[15:36:03] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmgrill`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
-[15:36:03] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmeski`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
-[15:36:03] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmdoormat`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
-[15:36:03] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmcrate`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
-[15:36:03] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmlightswitch`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
-[15:36:03] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmceilingfan`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
-[15:36:03] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmdeskcabinet`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
-[15:36:03] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmmodernslidingdoor`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
-[15:36:03] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmdigitalclock`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
-[15:36:03] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmtv`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
-[15:36:03] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmkitchencounter`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
-[15:36:03] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmkitchencounterdrawer`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
-[15:36:03] [Server thread/INFO] [FML]: Injecting itemstacks
-[15:36:03] [Server thread/INFO] [FML]: Itemstack injection complete
-[15:36:03] [Server thread/INFO] [worldedit]: WorldEdit for Forge (version 6.1.10) is loaded
-[15:36:03] [Server thread/INFO] [FML]: Forge Mod Loader has successfully loaded 12 mods
-[15:36:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Preparing level "world"
-[15:36:04] [Server thread/INFO] [FML]: Injecting existing registry data into this server instance
-[15:36:05] [Server thread/INFO] [FML]: Applying holder lookups
-[15:36:05] [Server thread/INFO] [FML]: Holder lookups applied
-[15:36:05] [Server thread/INFO] [FML]: Loading dimension 0 (world) (net.minecraft.server.dedicated.DedicatedServer@4d820bdd)
-[15:36:05] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 513 advancements
-[15:36:05] [Server thread/INFO] [FML]: Loading dimension -1 (world) (net.minecraft.server.dedicated.DedicatedServer@4d820bdd)
-[15:36:05] [Server thread/INFO] [FML]: Loading dimension 1 (world) (net.minecraft.server.dedicated.DedicatedServer@4d820bdd)
-[15:36:05] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for level 0
-[15:36:06] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 4%
-[15:36:07] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Done (3.928s)! For help, type "help" or "?"
-[15:36:08] [Server thread/INFO] [Quark ASM]: Transforming net.minecraft.enchantment.EnchantmentHelper
-[15:36:08] [Server thread/INFO] [Quark ASM]: Applying Transformation to method (Names [getEnchantments, func_82781_a] Descriptor (Lnet/minecraft/item/ItemStack;)Ljava/util/Map;)
-[15:36:08] [Server thread/INFO] [Quark ASM]: Located Method, patching...
-[15:36:08] [Server thread/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/item/ItemStack.func_77986_q ()Lnet/minecraft/nbt/NBTTagList;
-[15:36:08] [Server thread/INFO] [Quark ASM]: Patch result: true
-[15:36:08] [Server thread/INFO] [FML]: Unloading dimension -1
-[15:36:08] [Server thread/INFO] [FML]: Unloading dimension 1
-[15:37:46] [Netty Epoll Server IO #2/INFO] [FML]: Client protocol version 2
-[15:37:46] [Netty Epoll Server IO #2/INFO] [FML]: Client attempting to join with 13 mods : minecraft@1.12.2,FML@8.0.99.99,personalcars@1.4,customnpcs@1.12,worldedit@6.1.10,cfm@6.3.0,tlauncher_custom_cape_skin@1.4,forge@14.23.5.2860,quark@r1.6-179,mcp@9.42,journeymap@1.12.2-5.7.1p2,variedcommodities@1.12.2,autoreglib@1.3-32
-[15:37:46] [Netty Epoll Server IO #2/INFO] [journeymap]: CLIENT
-[15:37:49] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
-[15:37:49] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: ichi_demons[/100.111.167.116:60177] logged in with entity id 184 at (-648.3000000119209, 68.0, 97.64935066265612)
-[15:37:49] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ichi_demons joined the game
-[15:54:51] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: ichi_demons lost connection: Timed out
-[15:54:51] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ichi_demons left the game
-[15:56:04] [Netty Epoll Server IO #3/INFO] [FML]: Client protocol version 2
-[15:56:04] [Netty Epoll Server IO #3/INFO] [FML]: Client attempting to join with 13 mods : minecraft@1.12.2,FML@8.0.99.99,personalcars@1.4,customnpcs@1.12,worldedit@6.1.10,cfm@6.3.0,tlauncher_custom_cape_skin@1.4,forge@14.23.5.2860,quark@r1.6-179,mcp@9.42,journeymap@1.12.2-5.7.1p2,variedcommodities@1.12.2,autoreglib@1.3-32
-[15:56:04] [Netty Epoll Server IO #3/INFO] [journeymap]: CLIENT
-[15:56:08] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
-[15:56:08] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: ichi_demons[/100.111.167.116:60256] logged in with entity id 4561 at (-647.119769330905, 73.0, 102.6843552014525)
-[15:56:08] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ichi_demons joined the game
-[16:35:02] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ichi_demons: Changing to clear weather]
-[16:54:18] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ichi_demons: Changing to clear weather]
-[16:54:57] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: ichi_demons lost connection: Timed out
-[16:54:57] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ichi_demons left the game
-[16:54:57] [Server thread/WARN] [net.minecraft.network.NetworkManager]: handleDisconnection() called twice
-[16:59:45] [Netty Epoll Server IO #0/INFO] [FML]: Client protocol version 2
-[16:59:45] [Netty Epoll Server IO #0/INFO] [FML]: Client attempting to join with 13 mods : minecraft@1.12.2,FML@8.0.99.99,personalcars@1.4,customnpcs@1.12,worldedit@6.1.10,cfm@6.3.0,tlauncher_custom_cape_skin@1.4,forge@14.23.5.2860,quark@r1.6-179,mcp@9.42,journeymap@1.12.2-5.7.1p2,variedcommodities@1.12.2,autoreglib@1.3-32
-[16:59:45] [Netty Epoll Server IO #0/INFO] [journeymap]: CLIENT
-[16:59:48] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
-[16:59:48] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: ichi_demons[/100.111.167.116:55334] logged in with entity id 20266 at (-647.0255803315763, 63.0, 109.12060656398191)
-[16:59:48] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ichi_demons joined the game
-[17:00:49] [Netty Epoll Server IO #0/ERROR] [FML]: NetworkDispatcher exception
-io.netty.handler.timeout.ReadTimeoutException: null
-[17:00:49] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: ichi_demons lost connection: Disconnected
-[17:00:49] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ichi_demons left the game
-[17:01:02] [Netty Epoll Server IO #1/INFO] [FML]: Client protocol version 2
-[17:01:02] [Netty Epoll Server IO #1/INFO] [FML]: Client attempting to join with 13 mods : minecraft@1.12.2,FML@8.0.99.99,personalcars@1.4,customnpcs@1.12,worldedit@6.1.10,cfm@6.3.0,tlauncher_custom_cape_skin@1.4,forge@14.23.5.2860,quark@r1.6-179,mcp@9.42,journeymap@1.12.2-5.7.1p2,variedcommodities@1.12.2,autoreglib@1.3-32
-[17:01:02] [Netty Epoll Server IO #1/INFO] [journeymap]: CLIENT
-[17:01:05] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
-[17:01:05] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: ichi_demons[/100.111.167.116:55346] logged in with entity id 20668 at (-647.0255803315763, 63.0, 109.12060656398191)
-[17:01:05] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ichi_demons joined the game
-[17:01:35] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: ichi_demons lost connection: Timed out
-[17:01:35] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ichi_demons left the game
-[17:01:46] [Netty Epoll Server IO #2/INFO] [FML]: Client protocol version 2
-[17:01:46] [Netty Epoll Server IO #2/INFO] [FML]: Client attempting to join with 13 mods : minecraft@1.12.2,FML@8.0.99.99,personalcars@1.4,customnpcs@1.12,worldedit@6.1.10,cfm@6.3.0,tlauncher_custom_cape_skin@1.4,forge@14.23.5.2860,quark@r1.6-179,mcp@9.42,journeymap@1.12.2-5.7.1p2,variedcommodities@1.12.2,autoreglib@1.3-32
-[17:01:46] [Netty Epoll Server IO #2/INFO] [journeymap]: CLIENT
-[17:01:49] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
-[17:01:49] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: ichi_demons[/100.111.167.116:55351] logged in with entity id 20992 at (-655.2646928167374, 63.0, 109.1419110543309)
-[17:01:49] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ichi_demons joined the game
-[17:02:23] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ichi_demons: Changing to clear weather]
-[17:18:59] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ichi_demons: Set the time to 1000]
-[17:19:05] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ichi_demons: Changing to clear weather]
-[17:24:21] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: ichi_demons lost connection: Timed out
-[17:24:21] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ichi_demons left the game
-[17:58:55] [Netty Epoll Server IO #3/INFO] [FML]: Client protocol version 2
-[17:58:55] [Netty Epoll Server IO #3/INFO] [FML]: Client attempting to join with 13 mods : minecraft@1.12.2,FML@8.0.99.99,personalcars@1.4,customnpcs@1.12,worldedit@6.1.10,cfm@6.3.0,tlauncher_custom_cape_skin@1.4,forge@14.23.5.2860,quark@r1.6-179,mcp@9.42,journeymap@1.12.2-5.7.1p2,variedcommodities@1.12.2,autoreglib@1.3-32
-[17:58:55] [Netty Epoll Server IO #3/INFO] [journeymap]: CLIENT
-[17:58:59] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
-[17:58:59] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: ichi_demons[/100.111.167.116:55749] logged in with entity id 27302 at (-662.1270280950313, 65.93854205605207, 103.92275806070302)
-[17:58:59] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ichi_demons joined the game
-[18:04:17] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ichi_demons: Changing to clear weather]
-[18:04:23] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ichi_demons: Set the time to 1000]
-[18:16:00] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: ichi_demons lost connection: Timed out
-[18:16:00] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ichi_demons left the game
-[18:16:15] [Netty Epoll Server IO #0/INFO] [FML]: Client protocol version 2
-[18:16:15] [Netty Epoll Server IO #0/INFO] [FML]: Client attempting to join with 13 mods : minecraft@1.12.2,FML@8.0.99.99,personalcars@1.4,customnpcs@1.12,worldedit@6.1.10,cfm@6.3.0,tlauncher_custom_cape_skin@1.4,forge@14.23.5.2860,quark@r1.6-179,mcp@9.42,journeymap@1.12.2-5.7.1p2,variedcommodities@1.12.2,autoreglib@1.3-32
-[18:16:15] [Netty Epoll Server IO #0/INFO] [journeymap]: CLIENT
-[18:16:18] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
-[18:16:18] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: ichi_demons[/100.111.167.116:55825] logged in with entity id 32355 at (-658.4300194860255, 63.0, 90.44354491640557)
-[18:16:18] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ichi_demons joined the game
-[18:17:24] [Netty Epoll Server IO #0/ERROR] [FML]: NetworkDispatcher exception
-io.netty.handler.timeout.ReadTimeoutException: null
-[18:17:24] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: ichi_demons lost connection: Disconnected
-[18:17:24] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ichi_demons left the game
-[18:18:13] [Netty Epoll Server IO #1/INFO] [FML]: Client protocol version 2
-[18:18:13] [Netty Epoll Server IO #1/INFO] [FML]: Client attempting to join with 13 mods : minecraft@1.12.2,FML@8.0.99.99,personalcars@1.4,customnpcs@1.12,worldedit@6.1.10,cfm@6.3.0,tlauncher_custom_cape_skin@1.4,forge@14.23.5.2860,quark@r1.6-179,mcp@9.42,journeymap@1.12.2-5.7.1p2,variedcommodities@1.12.2,autoreglib@1.3-32
-[18:18:13] [Netty Epoll Server IO #1/INFO] [journeymap]: CLIENT
-[18:18:19] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
-[18:18:19] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: ichi_demons[/100.111.167.116:55833] logged in with entity id 32842 at (-658.4300194860255, 63.0, 90.44354491640557)
-[18:18:19] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ichi_demons joined the game
-[18:19:19] [Netty Epoll Server IO #1/ERROR] [FML]: NetworkDispatcher exception
-io.netty.handler.timeout.ReadTimeoutException: null
-[18:19:19] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: ichi_demons lost connection: Disconnected
-[18:19:19] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ichi_demons left the game
-[18:19:47] [Netty Epoll Server IO #2/INFO] [FML]: Client protocol version 2
-[18:19:47] [Netty Epoll Server IO #2/INFO] [FML]: Client attempting to join with 13 mods : minecraft@1.12.2,FML@8.0.99.99,personalcars@1.4,customnpcs@1.12,worldedit@6.1.10,cfm@6.3.0,tlauncher_custom_cape_skin@1.4,forge@14.23.5.2860,quark@r1.6-179,mcp@9.42,journeymap@1.12.2-5.7.1p2,variedcommodities@1.12.2,autoreglib@1.3-32
-[18:19:47] [Netty Epoll Server IO #2/INFO] [journeymap]: CLIENT
-[18:19:50] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
-[18:19:50] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: ichi_demons[/100.111.167.116:55840] logged in with entity id 33317 at (-660.1441776006131, 64.0, 94.36919084670981)
-[18:19:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ichi_demons joined the game
-[18:20:15] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ichi_demons: Changing to clear weather]
-[18:20:21] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ichi_demons: Set the time to 1000]
-[18:30:29] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ichi_demons: Set the time to 1000]
-[18:30:38] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ichi_demons: Changing to clear weather]
-[18:46:22] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: ichi_demons lost connection: Timed out
-[18:46:22] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ichi_demons left the game
+[22:32:47] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[22:32:47] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[22:32:47] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[22:32:48] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2860 for Minecraft 1.12.2 loading
+[22:32:48] [main/INFO] [FML]: Java is OpenJDK 64-Bit Server VM, version 1.8.0_432, running on Linux:amd64:6.5.0-1025-azure, installed at /usr/lib/jvm/java-8-openjdk-amd64/jre
+[22:32:48] [main/INFO] [FML]: Searching /workspaces/msl2.5/servidor_minecraft/./mods for mods
+[22:32:48] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in Quark-r1.6-179.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[22:32:48] [main/WARN] [FML]: The coremod Quark Plugin (vazkii.quark.base.asm.LoadingPlugin) is not signed!
+[22:32:48] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[22:32:48] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[22:32:48] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[22:32:48] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[22:32:48] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[22:32:50] [main/INFO] [FML]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557
+[22:32:50] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[22:32:50] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[22:32:50] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[22:32:50] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[22:32:50] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[22:32:50] [main/INFO] [Quark ASM]: Transforming net.minecraft.world.WorldServer
+[22:32:50] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [areAllPlayersAsleep, func_73056_e] Descriptor ()Z)
+[22:32:50] [main/INFO] [Quark ASM]: Located Method, patching...
+[22:32:50] [main/INFO] [Quark ASM]: Patch result: true
+[22:32:50] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [wakeAllPlayers, func_73053_d] Descriptor ()V)
+[22:32:50] [main/INFO] [Quark ASM]: Located Method, patching...
+[22:32:50] [main/INFO] [Quark ASM]: Patch result: true
+[22:32:51] [main/INFO] [Quark ASM]: Transforming net.minecraft.entity.Entity
+[22:32:51] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [move, func_70091_d] Descriptor (Lnet/minecraft/entity/MoverType;DDD)V)
+[22:32:51] [main/INFO] [Quark ASM]: Located Method, patching...
+[22:32:51] [main/INFO] [Quark ASM]: Patch result: true
+[22:32:51] [main/INFO] [Quark ASM]: Located Method, patching...
+[22:32:51] [main/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/entity/Entity.func_145775_I ()V
+[22:32:51] [main/INFO] [Quark ASM]: Patch result: true
+[22:32:51] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [onEntityUpdate, func_70030_z] Descriptor ()V)
+[22:32:51] [main/INFO] [Quark ASM]: Located Method, patching...
+[22:32:51] [main/INFO] [Quark ASM]: Patch result: true
+[22:32:51] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.server.MinecraftServer}
+[22:32:51] [main/INFO] [Quark ASM]: Transforming net.minecraft.enchantment.Enchantment
+[22:32:51] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [canApply, func_92089_a] Descriptor (Lnet/minecraft/item/ItemStack;)Z)
+[22:32:51] [main/INFO] [Quark ASM]: Located Method, patching...
+[22:32:51] [main/INFO] [Quark ASM]: Located patch target node IRETURN
+[22:32:51] [main/INFO] [Quark ASM]: Patch result: true
+[22:32:51] [main/INFO] [Quark ASM]: Transforming net.minecraft.entity.item.EntityItem
+[22:32:51] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [onUpdate, func_70071_h_] Descriptor ()V)
+[22:32:51] [main/INFO] [Quark ASM]: Located Method, patching...
+[22:32:51] [main/INFO] [Quark ASM]: Patch result: true
+[22:32:51] [main/INFO] [Quark ASM]: Transforming net.minecraft.item.ItemStack
+[22:32:51] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [getTextComponent, func_151000_E] Descriptor ()Lnet/minecraft/util/text/ITextComponent;)
+[22:32:51] [main/INFO] [Quark ASM]: Located Method, patching...
+[22:32:51] [main/INFO] [Quark ASM]: Located patch target node ARETURN
+[22:32:51] [main/INFO] [Quark ASM]: Patch result: true
+[22:32:51] [main/INFO] [Quark ASM]: Transforming net.minecraft.block.BlockDynamicLiquid
+[22:32:51] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [isBlocked, func_176372_g] Descriptor (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;)Z)
+[22:32:51] [main/INFO] [Quark ASM]: Located Method, patching...
+[22:32:51] [main/INFO] [Quark ASM]: Located patch target node IRETURN
+[22:32:51] [main/INFO] [Quark ASM]: Located patch target node IRETURN
+[22:32:51] [main/INFO] [Quark ASM]: Patch result: true
+[22:32:51] [main/INFO] [Quark ASM]: Transforming net.minecraft.block.BlockPistonBase
+[22:32:51] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [canPush, func_185646_a] Descriptor (Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;ZLnet/minecraft/util/EnumFacing;)Z)
+[22:32:51] [main/INFO] [Quark ASM]: Located Method, patching...
+[22:32:51] [main/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/block/Block.hasTileEntity (Lnet/minecraft/block/state/IBlockState;)Z
+[22:32:51] [main/INFO] [Quark ASM]: Patch result: true
+[22:32:51] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [doMove, func_176319_a] Descriptor (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;Z)Z)
+[22:32:51] [main/INFO] [Quark ASM]: Located Method, patching...
+[22:32:51] [main/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/block/state/BlockPistonStructureHelper.func_177254_c ()Ljava/util/List;
+[22:32:51] [main/INFO] [Quark ASM]: Patch result: true
+[22:32:51] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [doMove, func_176319_a] Descriptor (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;Z)Z)
+[22:32:51] [main/INFO] [Quark ASM]: Located Method, patching...
+[22:32:51] [main/INFO] [Quark ASM]: Located patch target node INVOKESPECIAL net/minecraft/block/state/BlockPistonStructureHelper.<init> (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;Z)V
+[22:32:51] [main/INFO] [Quark ASM]: Patch result: true
+[22:32:51] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [checkForMove, func_176316_e] Descriptor (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;)V)
+[22:32:51] [main/INFO] [Quark ASM]: Located Method, patching...
+[22:32:51] [main/INFO] [Quark ASM]: Located patch target node INVOKESPECIAL net/minecraft/block/state/BlockPistonStructureHelper.<init> (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;Z)V
+[22:32:51] [main/INFO] [Quark ASM]: Patch result: true
+[22:32:51] [main/INFO] [Quark ASM]: Transforming net.minecraft.tileentity.TileEntityPiston
+[22:32:51] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [update, func_73660_a] Descriptor ()V)
+[22:32:51] [main/INFO] [Quark ASM]: Located Method, patching...
+[22:32:51] [main/INFO] [Quark ASM]: Patch result: true
+[22:32:51] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [clearPistonTileEntity, func_145866_f] Descriptor ()V)
+[22:32:51] [main/INFO] [Quark ASM]: Located Method, patching...
+[22:32:51] [main/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/world/World.func_180501_a (Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;I)Z
+[22:32:51] [main/INFO] [Quark ASM]: Patch result: true
+[22:32:51] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [update, func_73660_a] Descriptor ()V)
+[22:32:51] [main/INFO] [Quark ASM]: Located Method, patching...
+[22:32:51] [main/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/world/World.func_180501_a (Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;I)Z
+[22:32:51] [main/INFO] [Quark ASM]: Patch result: true
+[22:32:53] [main/INFO] [Quark ASM]: Transforming net.minecraft.enchantment.EnchantmentDamage
+[22:32:53] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [canApply, func_92089_a] Descriptor (Lnet/minecraft/item/ItemStack;)Z)
+[22:32:53] [main/INFO] [Quark ASM]: Located Method, patching...
+[22:32:53] [main/INFO] [Quark ASM]: Located patch target node IRETURN
+[22:32:53] [main/INFO] [Quark ASM]: Located patch target node IRETURN
+[22:32:53] [main/INFO] [Quark ASM]: Patch result: true
+[22:32:53] [main/INFO] [Quark ASM]: Transforming net.minecraft.entity.item.EntityMinecart
+[22:32:53] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [killMinecart, func_94095_a] Descriptor (Lnet/minecraft/util/DamageSource;)V)
+[22:32:53] [main/INFO] [Quark ASM]: Located Method, patching...
+[22:32:53] [main/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/entity/item/EntityMinecart.func_70099_a (Lnet/minecraft/item/ItemStack;F)Lnet/minecraft/entity/item/EntityItem;
+[22:32:53] [main/INFO] [Quark ASM]: Patch result: true
+[22:32:53] [main/INFO] [Quark ASM]: Transforming net.minecraft.entity.item.EntityBoat
+[22:32:53] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [attackEntityFrom, func_70097_a] Descriptor (Lnet/minecraft/util/DamageSource;F)Z)
+[22:32:53] [main/INFO] [Quark ASM]: Located Method, patching...
+[22:32:53] [main/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/entity/item/EntityBoat.func_145778_a (Lnet/minecraft/item/Item;IF)Lnet/minecraft/entity/item/EntityItem;
+[22:32:53] [main/INFO] [Quark ASM]: Patch result: true
+[22:32:53] [main/INFO] [Quark ASM]: Transforming net.minecraft.item.ItemBanner
+[22:32:53] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [appendHoverTextFromTileEntityTag, func_185054_a] Descriptor (Lnet/minecraft/item/ItemStack;Ljava/util/List;)V)
+[22:32:53] [main/INFO] [Quark ASM]: Failed to locate the method!
+[22:32:53] [main/INFO] [Quark ASM]: Transforming net.minecraft.entity.ai.EntityAITarget
+[22:32:53] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [isSuitableTarget, func_179445_a] Descriptor (Lnet/minecraft/entity/EntityLiving;Lnet/minecraft/entity/EntityLivingBase;ZZ)Z)
+[22:32:53] [main/INFO] [Quark ASM]: Located Method, patching...
+[22:32:53] [main/INFO] [Quark ASM]: Patch result: true
+[22:32:54] [main/INFO] [Quark ASM]: Transforming net.minecraft.item.crafting.RecipesBanners$RecipeAddPattern
+[22:32:54] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [matches, func_77569_a] Descriptor (Lnet/minecraft/inventory/InventoryCrafting;Lnet/minecraft/world/World;)Z)
+[22:32:54] [main/INFO] [Quark ASM]: Located Method, patching...
+[22:32:54] [main/INFO] [Quark ASM]: Located patch target node INVOKESTATIC net/minecraft/tileentity/TileEntityBanner.func_175113_c (Lnet/minecraft/item/ItemStack;)I
+[22:32:54] [main/INFO] [Quark ASM]: Patch result: true
+[22:32:54] [main/INFO] [Quark ASM]: Transforming net.minecraft.inventory.ContainerMerchant
+[22:32:54] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [transferStackInSlot, func_82846_b] Descriptor (Lnet/minecraft/entity/player/EntityPlayer;I)Lnet/minecraft/item/ItemStack;)
+[22:32:54] [main/INFO] [Quark ASM]: Located Method, patching...
+[22:32:54] [main/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/inventory/ContainerMerchant.func_75135_a (Lnet/minecraft/item/ItemStack;IIZ)Z
+[22:32:54] [main/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/inventory/ContainerMerchant.func_75135_a (Lnet/minecraft/item/ItemStack;IIZ)Z
+[22:32:54] [main/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/inventory/ContainerMerchant.func_75135_a (Lnet/minecraft/item/ItemStack;IIZ)Z
+[22:32:54] [main/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/inventory/ContainerMerchant.func_75135_a (Lnet/minecraft/item/ItemStack;IIZ)Z
+[22:32:54] [main/INFO] [Quark ASM]: Patch result: true
+[22:32:54] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting minecraft server version 1.12.2
+[22:32:54] [Server thread/INFO] [FML]: MinecraftForge v14.23.5.2860 Initialized
+[22:32:54] [Server thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
+[22:32:55] [Server thread/INFO] [FML]: Invalid recipe found with multiple oredict ingredients in the same ingredient...
+[22:32:55] [Server thread/INFO] [FML]: Replaced 1227 ore ingredients
+[22:32:55] [Server thread/INFO] [FML]: Searching /workspaces/msl2.5/servidor_minecraft/./mods for mods
+[22:32:57] [Server thread/INFO] [FML]: Forge Mod Loader has identified 12 mods to load
+[22:32:57] [Server thread/WARN] [FML]: Missing English translation for FML: assets/fml/lang/en_us.lang
+[22:32:57] [Server thread/WARN] [FML]: Missing English translation for worldedit: assets/worldedit/lang/en_us.lang
+[22:32:57] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, autoreglib, customnpcs, cfm, journeymap, personalcars, quark, variedcommodities, worldedit] at CLIENT
+[22:32:57] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, autoreglib, customnpcs, cfm, journeymap, personalcars, quark, variedcommodities, worldedit] at SERVER
+[22:32:58] [Server thread/INFO] [FML]: Processing ObjectHolder annotations
+[22:32:58] [Server thread/INFO] [FML]: Found 1582 ObjectHolder annotations
+[22:32:58] [Server thread/INFO] [FML]: Identifying ItemStackHolder annotations
+[22:32:58] [Server thread/INFO] [FML]: Found 0 ItemStackHolder annotations
+[22:32:58] [Server thread/INFO] [FML]: Configured a dormant chunk cache size of 0
+[22:32:58] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[22:32:59] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: AHEAD Target: null
+[22:32:59] [Server thread/INFO] [Quark ASM]: Transforming net.minecraft.util.DamageSource
+[22:32:59] [Server thread/INFO] [Quark ASM]: Applying Transformation to method (Names [causePlayerDamage, func_76365_a] Descriptor (Lnet/minecraft/entity/player/EntityPlayer;)Lnet/minecraft/util/DamageSource;)
+[22:32:59] [Server thread/INFO] [Quark ASM]: Located Method, patching...
+[22:32:59] [Server thread/INFO] [Quark ASM]: Patch result: true
+[22:32:59] [Server thread/INFO] [Quark]: Module world is enabled
+[22:32:59] [Server thread/INFO] [Quark]: Module experimental is enabled
+[22:32:59] [Server thread/INFO] [Quark]: Module tweaks is enabled
+[22:32:59] [Server thread/INFO] [Quark]: Module management is enabled
+[22:32:59] [Server thread/INFO] [Quark]: Module vanity is enabled
+[22:32:59] [Server thread/INFO] [Quark]: Module client is enabled
+[22:32:59] [Server thread/INFO] [Quark]: Module decoration is enabled
+[22:32:59] [Server thread/INFO] [Quark]: Module automation is enabled
+[22:32:59] [Server thread/INFO] [Quark]: Module misc is enabled
+[22:32:59] [Server thread/INFO] [Quark]: Module building is enabled
+[22:33:03] [Server thread/INFO] [personalcars]: Registering blocks...
+[22:33:03] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tile.keymodifier`, expected `personalcars`. This could be a intended override, but in most cases indicates a broken mod.
+[22:33:03] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tileredstoneblock`, expected `customnpcs`. This could be a intended override, but in most cases indicates a broken mod.
+[22:33:03] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tileblockanvil`, expected `customnpcs`. This could be a intended override, but in most cases indicates a broken mod.
+[22:33:03] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tilemailbox`, expected `customnpcs`. This could be a intended override, but in most cases indicates a broken mod.
+[22:33:03] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tilewaypoint`, expected `customnpcs`. This could be a intended override, but in most cases indicates a broken mod.
+[22:33:03] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tilenpcscripted`, expected `customnpcs`. This could be a intended override, but in most cases indicates a broken mod.
+[22:33:03] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tilenpcscripteddoor`, expected `customnpcs`. This could be a intended override, but in most cases indicates a broken mod.
+[22:33:03] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tilenpcbuilder`, expected `customnpcs`. This could be a intended override, but in most cases indicates a broken mod.
+[22:33:03] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tilenpccopy`, expected `customnpcs`. This could be a intended override, but in most cases indicates a broken mod.
+[22:33:03] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tilenpcborder`, expected `customnpcs`. This could be a intended override, but in most cases indicates a broken mod.
+[22:33:03] [Server thread/INFO] [FML]: Applying holder lookups
+[22:33:03] [Server thread/INFO] [FML]: Holder lookups applied
+[22:33:03] [Server thread/INFO] [personalcars]: Registering items...
+[22:33:03] [Server thread/INFO] [FML]: Applying holder lookups
+[22:33:03] [Server thread/INFO] [FML]: Holder lookups applied
+[22:33:03] [Server thread/INFO] [personalcars]: Registering sound events...
+[22:33:03] [Server thread/INFO] [FML]: Applying holder lookups
+[22:33:03] [Server thread/INFO] [FML]: Holder lookups applied
+[22:33:03] [Server thread/INFO] [FML]: Applying holder lookups
+[22:33:03] [Server thread/INFO] [FML]: Holder lookups applied
+[22:33:03] [Server thread/INFO] [FML]: Injecting itemstacks
+[22:33:03] [Server thread/INFO] [FML]: Itemstack injection complete
+[22:33:03] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Loading properties
+[22:33:03] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Default game type: SURVIVAL
+[22:33:03] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Generating keypair
+[22:33:03] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting Minecraft server on *:25565
+[22:33:04] [Server thread/INFO] [net.minecraft.network.NetworkSystem]: Using epoll channel type
+[22:33:04] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[22:33:04] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: The server will make no attempt to authenticate usernames. Beware.
+[22:33:04] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[22:33:04] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: To change this, set "online-mode" to "true" in the server.properties file.
+[22:33:04] [Server thread/INFO] [personalcars]: Registering crafting recipes...
+[22:33:04] [Server thread/INFO] [FML]: Applying holder lookups
+[22:33:04] [Server thread/INFO] [FML]: Holder lookups applied
+[22:33:08] [Server thread/INFO] [noppes.npcs.CustomNpcs]: CustomNPC Permissions available:
+[22:33:08] [Server thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.edit.blocks
+[22:33:08] [Server thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.edit.villager
+[22:33:08] [Server thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.global.bank
+[22:33:08] [Server thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.global.dialog
+[22:33:08] [Server thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.global.faction
+[22:33:08] [Server thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.global.linked
+[22:33:08] [Server thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.global.naturalspawn
+[22:33:08] [Server thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.global.playerdata
+[22:33:08] [Server thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.global.quest
+[22:33:08] [Server thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.global.recipe
+[22:33:08] [Server thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.global.transport
+[22:33:08] [Server thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.npc.advanced
+[22:33:08] [Server thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.npc.ai
+[22:33:08] [Server thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.npc.clone
+[22:33:08] [Server thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.npc.create
+[22:33:08] [Server thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.npc.delete
+[22:33:08] [Server thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.npc.display
+[22:33:08] [Server thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.npc.freeze
+[22:33:08] [Server thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.npc.gui
+[22:33:08] [Server thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.npc.inventory
+[22:33:08] [Server thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.npc.reset
+[22:33:08] [Server thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.npc.stats
+[22:33:08] [Server thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.scenes
+[22:33:08] [Server thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.soulstone.all
+[22:33:08] [Server thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.spawner.create
+[22:33:08] [Server thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.spawner.mob
+[22:33:08] [Server thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.tool.mounter
+[22:33:08] [Server thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.tool.nbtbook
+[22:33:08] [Server thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.tool.pather
+[22:33:08] [Server thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.tool.scripter
+[22:33:08] [Server thread/INFO] [STDOUT]: [noppes.npcs.CustomNpcs:load:258]: Markov dictionaries loaded!
+[22:33:08] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmoven`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[22:33:08] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmfridge`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[22:33:08] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmcabinet`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[22:33:08] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmfreezer`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[22:33:08] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmbedsidecabinet`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[22:33:08] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmmailbox`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[22:33:08] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmcomputer`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[22:33:08] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmprinter`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[22:33:08] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmstereo`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[22:33:08] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmpresent`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[22:33:08] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmbin`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[22:33:08] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmwallcabinet`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[22:33:08] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmbath`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[22:33:08] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmshowerhead`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[22:33:08] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmplate`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[22:33:08] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmcouch`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[22:33:08] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmtoaster`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[22:33:08] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmchoppingboard`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[22:33:08] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmblender`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[22:33:08] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmmicrowave`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[22:33:08] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmwashingmachine`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[22:33:08] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmdishwasher`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[22:33:08] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmcabinetkitchen`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[22:33:08] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmcup`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[22:33:08] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmcookiejar`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[22:33:08] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmtree`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[22:33:08] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmmirror`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[22:33:08] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmgrill`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[22:33:08] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmeski`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[22:33:08] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmdoormat`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[22:33:08] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmcrate`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[22:33:08] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmlightswitch`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[22:33:08] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmceilingfan`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[22:33:08] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmdeskcabinet`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[22:33:08] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmmodernslidingdoor`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[22:33:08] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmdigitalclock`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[22:33:09] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmtv`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[22:33:09] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmkitchencounter`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[22:33:09] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmkitchencounterdrawer`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[22:33:09] [Server thread/INFO] [FML]: Injecting itemstacks
+[22:33:09] [Server thread/INFO] [FML]: Itemstack injection complete
+[22:33:09] [Server thread/INFO] [worldedit]: WorldEdit for Forge (version 6.1.10) is loaded
+[22:33:09] [Server thread/INFO] [FML]: Forge Mod Loader has successfully loaded 12 mods
+[22:33:09] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Preparing level "world"
+[22:33:09] [Server thread/INFO] [FML]: Injecting existing registry data into this server instance
+[22:33:11] [Server thread/INFO] [FML]: Applying holder lookups
+[22:33:11] [Server thread/INFO] [FML]: Holder lookups applied
+[22:33:11] [Server thread/INFO] [FML]: Loading dimension 0 (world) (net.minecraft.server.dedicated.DedicatedServer@646e3753)
+[22:33:11] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 513 advancements
+[22:33:11] [Server thread/INFO] [FML]: Loading dimension -1 (world) (net.minecraft.server.dedicated.DedicatedServer@646e3753)
+[22:33:11] [Server thread/INFO] [FML]: Loading dimension 1 (world) (net.minecraft.server.dedicated.DedicatedServer@646e3753)
+[22:33:11] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for level 0
+[22:33:12] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 13%
+[22:33:13] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Done (4.314s)! For help, type "help" or "?"
+[22:33:14] [Server thread/INFO] [Quark ASM]: Transforming net.minecraft.enchantment.EnchantmentHelper
+[22:33:14] [Server thread/INFO] [Quark ASM]: Applying Transformation to method (Names [getEnchantments, func_82781_a] Descriptor (Lnet/minecraft/item/ItemStack;)Ljava/util/Map;)
+[22:33:14] [Server thread/INFO] [Quark ASM]: Located Method, patching...
+[22:33:14] [Server thread/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/item/ItemStack.func_77986_q ()Lnet/minecraft/nbt/NBTTagList;
+[22:33:14] [Server thread/INFO] [Quark ASM]: Patch result: true
+[22:33:14] [Server thread/INFO] [FML]: Unloading dimension -1
+[22:33:14] [Server thread/INFO] [FML]: Unloading dimension 1
+[22:35:11] [Netty Epoll Server IO #3/INFO] [FML]: Client protocol version 2
+[22:35:11] [Netty Epoll Server IO #3/INFO] [FML]: Client attempting to join with 13 mods : minecraft@1.12.2,FML@8.0.99.99,personalcars@1.4,customnpcs@1.12,worldedit@6.1.10,cfm@6.3.0,tlauncher_custom_cape_skin@1.4,forge@14.23.5.2860,quark@r1.6-179,mcp@9.42,journeymap@1.12.2-5.7.1p2,variedcommodities@1.12.2,autoreglib@1.3-32
+[22:35:11] [Netty Epoll Server IO #3/INFO] [journeymap]: CLIENT
+[22:35:17] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[22:35:17] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: ichi_demons[/100.111.167.116:64933] logged in with entity id 182 at (-654.0410805204745, 78.0, 92.87024139232912)
+[22:35:17] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ichi_demons joined the game
+[22:36:32] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: ichi_demons lost connection: Timed out
+[22:36:32] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ichi_demons left the game
+[22:40:59] [Netty Epoll Server IO #0/INFO] [FML]: Client protocol version 2
+[22:40:59] [Netty Epoll Server IO #0/INFO] [FML]: Client attempting to join with 13 mods : minecraft@1.12.2,FML@8.0.99.99,personalcars@1.4,customnpcs@1.12,worldedit@6.1.10,cfm@6.3.0,tlauncher_custom_cape_skin@1.4,forge@14.23.5.2860,quark@r1.6-179,mcp@9.42,journeymap@1.12.2-5.7.1p2,variedcommodities@1.12.2,autoreglib@1.3-32
+[22:40:59] [Netty Epoll Server IO #0/INFO] [journeymap]: CLIENT
+[22:41:02] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[22:41:02] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: ichi_demons[/100.111.167.116:64948] logged in with entity id 728 at (-654.0410805204745, 78.0, 92.87024139232912)
+[22:41:02] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ichi_demons joined the game
