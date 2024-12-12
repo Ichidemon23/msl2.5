@@ -305,3 +305,19 @@
 [22:50:42] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ichi_demons: Changing to clear weather]
 [22:50:58] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: ichi_demons lost connection: Timed out
 [22:50:58] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ichi_demons left the game
+[22:53:49] [Netty Epoll Server IO #2/INFO] [FML]: Client protocol version 2
+[22:53:49] [Netty Epoll Server IO #2/INFO] [FML]: Client attempting to join with 13 mods : minecraft@1.12.2,FML@8.0.99.99,personalcars@1.4,customnpcs@1.12,worldedit@6.1.10,cfm@6.3.0,tlauncher_custom_cape_skin@1.4,forge@14.23.5.2860,quark@r1.6-179,mcp@9.42,journeymap@1.12.2-5.7.1p2,variedcommodities@1.12.2,autoreglib@1.3-32
+[22:53:49] [Netty Epoll Server IO #2/INFO] [journeymap]: CLIENT
+[22:53:52] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[22:53:52] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: ichi_demons[/100.111.167.116:64987] logged in with entity id 3929 at (-647.2581277397712, 78.0, 93.09671994290146)
+[22:53:52] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ichi_demons joined the game
+[22:54:22] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: ichi_demons lost connection: Timed out
+[22:54:22] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ichi_demons left the game
+[22:54:34] [Netty Epoll Server IO #3/INFO] [FML]: Client protocol version 2
+[22:54:34] [Netty Epoll Server IO #3/INFO] [FML]: Client attempting to join with 13 mods : minecraft@1.12.2,FML@8.0.99.99,personalcars@1.4,customnpcs@1.12,worldedit@6.1.10,cfm@6.3.0,tlauncher_custom_cape_skin@1.4,forge@14.23.5.2860,quark@r1.6-179,mcp@9.42,journeymap@1.12.2-5.7.1p2,variedcommodities@1.12.2,autoreglib@1.3-32
+[22:54:34] [Netty Epoll Server IO #3/INFO] [journeymap]: CLIENT
+[22:54:37] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[22:54:37] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: ichi_demons[/100.111.167.116:64992] logged in with entity id 4197 at (-644.0310891799634, 78.0, 93.30605973337288)
+[22:54:37] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ichi_demons joined the game
+[22:59:52] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: ichi_demons lost connection: Timed out
+[22:59:52] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ichi_demons left the game
