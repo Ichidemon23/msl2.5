@@ -345,3 +345,5 @@ io.netty.handler.timeout.ReadTimeoutException: null
 [23:16:45] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
 [23:16:45] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: ichi_demons[/100.111.167.116:50691] logged in with entity id 6967 at (-651.6999999880791, 77.02442408821369, 105.43737116774075)
 [23:16:45] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ichi_demons joined the game
+[23:37:17] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: ichi_demons lost connection: Timed out
+[23:37:17] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ichi_demons left the game
