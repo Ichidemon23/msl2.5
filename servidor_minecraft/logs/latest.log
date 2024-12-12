@@ -321,3 +321,5 @@ io.netty.handler.timeout.ReadTimeoutException: null
 [14:44:17] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ichi_demons has made the advancement [Sweet dreams]
 [14:47:14] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ichi_demons has made the advancement [House Party]
 [14:54:57] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ichi_demons: Set the time to 1000]
+[15:01:16] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: ichi_demons lost connection: Timed out
+[15:01:16] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ichi_demons left the game
